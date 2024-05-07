@@ -1,0 +1,2065 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+*, :after, :before {
+    box-sizing: inherit;
+}
+body {
+    font-family: "Roboto", Arial,Helvetica,sans-serif;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    background-color: #1d1f1e;
+    direction: ltr;
+}
+
+/* Start Header Section */
+header {
+    position: relative;
+    z-index: 90;
+    height: 40px;
+    font-family: "Roboto", Arial,Helvetica,sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    transition: top .5s;
+    background-color: #2E2D2F;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 0;
+    /* width: 100%; */
+    padding: 1px;
+    display: flex;
+    flex-direction: row;
+}
+.top-header {
+    margin-bottom: -4px;
+}
+a {
+    text-decoration: none;
+    list-style-type: none;
+    color: #fff;
+}
+nav ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+nav ul li {
+    margin: 0 10px;
+    align-items: center;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #FFF;
+    left: 0;
+    opacity: .8;
+}
+nav ul li a:hover {
+    color: #68BD69;
+}
+.flex {
+    display: flex;
+}
+.items-center {
+    align-items: center;
+}
+.items-end {
+    align-items: flex-end;
+}
+.items-start {
+    align-items: flex-start;
+}
+.justify-center {
+    justify-content: center;
+}
+.active {
+    color: #67c970;
+}
+.pointer {
+    cursor: pointer;
+}
+.mt-9 {
+    margin-top: 15px ;
+}
+.fs-inj-7 {
+    font-size: 14px;
+}
+.fs-inj-71 {
+    font-size: 6px;
+}
+.fs-inj-72 {
+    font-size: 2px;
+}
+.fs-sei {
+    font-size: 7px;
+}
+.fs-sei-1 {
+    font-size: 3px;
+}
+.fs-usde {
+    font-size: 6px;
+}
+.fs-usde-1 {
+    font-size: 4px;
+}
+.fs-ar {
+    font-size: 8px;
+}
+.fs-ar-1 {
+    font-size: 4px;
+}
+.fs-bgb {
+    font-size: 6px;
+}
+.fs-bgb-1 {
+    font-size: 3px;
+}
+.fs-btt {
+    font-size: 9px;
+}
+.fs-btt-1 {
+    font-size: 2px;
+}
+.fs-flow {
+    font-size: 9px;
+}
+.fs-flow-1 {
+    font-size: 2px;
+}
+.fs-bnb-20 {
+    font-size: 55px;
+}
+.fs-bnb-21 {
+    font-size: 12px;
+}
+.fs-pepe-7 {
+    font-size: 10px;
+}
+.fs-pepe-71 {
+    font-size: 5px;
+}
+.fs-pepe {
+    font-size: 10px;
+}
+.fs-pepe-1 {
+    font-size: 5px;
+}
+.fs-floki-7 {
+    font-size: 10px;
+}
+.fs-floki-71 {
+    font-size: 6px;
+}
+.fs-grt {
+    font-size: 13px;
+}
+.fs-grt-1 {
+    font-size: 7px;
+}
+.fs-link {
+    font-size: 21px;
+}
+.fs-link-1 {
+    font-size: 12px;
+}
+.fs-etc {
+    font-size: 15px;
+}
+.fs-etc-1 {
+    font-size: 6px;
+}
+.fs-arb {
+    font-size: 15px;
+}
+.fs-arb-1 {
+    font-size: 7px;
+}
+.fs-ena {
+    font-size: 8px;
+}
+.fs-ena-1 {
+    font-size: 4px;
+}
+.fs-flr {
+    font-size: 8px;
+}
+.fs-flr-1 {
+    font-size: 4px;
+}
+.fs-trx {
+    font-size: 21px;
+}
+.fs-trx-1 {
+    font-size: 11px;
+}
+.fs-trx-2 {
+    font-size: 7px;
+}
+.fs-dot {
+    font-size: 21px;
+}
+.fs-dot-1 {
+    font-size: 10px;
+}
+.fs-dot-2 {
+    font-size: 1px;
+}
+.fs-ada {
+    font-size: 19px;
+}
+.fs-ada-1 {
+    font-size: 10px ;
+}
+.fs-ada-2 {
+    font-size: 8px;
+}
+.fs-avax {
+    font-size: 18px;
+}
+.fs-avax-1 {
+    font-size: 11px;
+}
+.fs-avax-2 {
+    font-size: 8px;
+}
+.fs-sol-30 {
+    font-size: 32px;
+}
+.fs-sol-31 {
+    font-size: 12px;
+}
+.fs-sol-32 {
+    font-size: 8px;
+}
+.fs-sol {
+    font-size: 40px;
+}
+.fs-sol-1 {
+    font-size: 14px;
+}
+.fs-sol-2 {
+    font-size: 8px;
+}
+.fs-mnt {
+    font-size: 14px;
+}
+.fs-mnt-1 {
+    font-size: 7px;
+}
+.fs-mnt-2 {
+    font-size: 4px;
+}
+.fs-cro {
+    font-size: 13px;
+}
+.fs-cro-1 {
+    font-size: 8px;
+}
+.fs-fill {
+    font-size: 15px;
+}
+.fs-fill-1 {
+    font-size: 8px;
+}
+.fs-leo {
+    font-size: 15px;
+}
+.fs-leo-1 {
+    font-size: 8px;
+}
+.fs-uni {
+    font-size: 20px;
+}
+.fs-uni-1 {
+    font-size: 8px;
+}
+.fs-stx {
+    font-size: 13px;
+}
+.fs-stx-1 {
+    font-size: 7px;
+}
+.fs-theta {
+    font-size: 12px;
+}
+.fs-theta-1 {
+    font-size: 7px;
+}
+.fs-wif-1 {
+    font-size: 5px;
+}
+.fs-tao-1 {
+    font-size: 6px;
+}
+.fs-atom {
+    font-size: 11px;
+}
+.fs-atom-1 {
+    font-size: 4px;
+}
+.fs-imx {
+    font-size: 17px;
+}
+.fs-imx-1 {
+    font-size: 5px;
+}
+.fs-floki {
+    font-size: 9px;
+}
+.fs-floki-1 {
+    font-size: 2px;
+}
+.fs-pepe {
+    font-size: 8px;
+}
+.fs-pepe-1 {
+    font-size: 3px;
+}
+.fs-cfx {
+    font-size: 8px;
+}
+.fs-cfx-1 {
+    font-size: 2px;
+}
+.fs-algo {
+    font-size: 9px;
+}
+.fs-algo-1 {
+    font-size: 2px;
+}
+.fs-ton {
+    font-size: 15px;
+}
+.fs-ton-1 {
+    font-size: 10px;
+}
+.fs-ton-2 {
+    font-size: 6px;
+}
+.fs-neo {
+    font-size: 9px;
+}
+.fs-okb {
+    font-size: 9px;
+}
+.fs-okb-1 {
+    font-size: 5px;
+}
+.fs-core {
+    font-size: 8px;
+}
+.fs-core-1 {
+    font-size: 6px;
+}
+.fs-webth {
+    font-size: 8px;
+}
+.fs-webth-1 {
+    font-size: 5px;
+}
+.fs-near {
+    font-size: 10px;
+}
+.fs-near-1 {
+    font-size: 5px;
+}
+.fs-near-2 {
+    font-size: 3px;
+}
+.fs-tia {
+    font-size: 10px;
+}
+.fs-tia-1 {
+    font-size: 3px;
+}
+.fs-ftm {
+    font-size: 10px;
+}
+.fs-ftm-1 {
+    font-size: 3px;
+}
+.fs-fdusd {
+    font-size: 15px;
+}
+.fs-fdusd-1 {
+    font-size: 10px;
+}
+.fs-fdusd-2 {
+    font-size: 4px;
+}
+.fs-eth-20 {
+    font-size: 95px;
+}
+.fs-eth-21 {
+    font-size: 28px;
+}
+.fs-eth-22 {
+    font-size: 19px;
+}
+.fs-eth {
+    font-size: 130px;
+}
+.fs-eth-1 {
+    font-size: 40px;
+}
+.fs-eth-2 {
+    font-size: 30px;
+}
+.fs-btc {
+    font-size: 250px;
+}
+.fs-btc-1 {
+    font-size: 80px;
+}
+.fs-btc-2 {
+    font-size: 50px;
+}
+.fs-btc-3 {
+    font-size: 22px;
+}
+.fs-doge-30 {
+    font-size: 20px;
+}
+.fs-doge-31 {
+    font-size: 13px;
+}
+.fs-doge-32 {
+    font-size: 7px;
+}
+.fs-doge {
+    font-size: 20px !important;
+}
+.fs-doge-1 {
+    font-size: 13px !important;
+}
+.fs-shib-30 {
+    font-size: 20px;
+}
+.fs-shib-31 {
+    font-size: 12px;
+}
+.fs-shib-32 {
+    font-size: 8px;
+}
+.fs-shib {
+    font-size: 20px;
+}
+.fs-shib-1 {
+    font-size: 12px;
+}
+.fs-doge-7 {
+    font-size: 10px;
+}
+.fs-doge-71 {
+    font-size: 6px;
+}
+.fs-doge-72 {
+    font-size: 4px;
+}
+.fs-shib-7 {
+    font-size: 11px;
+}
+.fs-shib-71 {
+    font-size: 6px;
+}
+.fs-shib-72 {
+    font-size: 4px;
+}
+.fs-mkr {
+    font-size: 13px;
+}
+.fs-mkr-1 {
+    font-size: 8px;
+}
+.fs-mkr-2 {
+    font-size: 2px;
+}
+.fs-rndr {
+    font-size: 18px;
+}
+.fs-rndr-1 {
+    font-size: 8px;
+}
+.fs-rune {
+    font-size: 10px;
+}
+.fs-rune-1 {
+    font-size: 5px;
+}
+.fs-rune-2 {
+    font-size: 4px;
+}
+.fs-wbtc {
+    font-size: 9px;
+}
+.fs-wbtc-1 {
+    font-size: 3px;
+}
+.fs-bch {
+    font-size: 13px;
+}
+.fs-bch-1 {
+    font-size: 4.5px;
+}
+.fs-bsv {
+    font-size: 14px;
+}
+.fs-bsv-1 {
+    font-size: 4px;
+}
+.fs-ordi {
+    font-size: 8px;
+}
+.fs-ordi-1 {
+    font-size: 2px;
+}
+.fs-inj-30 {
+    font-size: 14px;
+}
+.fs-inj-31 {
+    font-size: 6px;
+}
+.fs-apt {
+    font-size: 15px;
+}
+.fs-apt-1 {
+    font-size: 8px;
+}
+.fs-icp {
+    font-size: 20px;
+}
+.fs-icp-1 {
+    font-size: 7px;
+}
+.fs-icp-2 {
+    font-size: 6px;
+}
+.fs-rndr-30 {
+    font-size: 14px ;
+}
+.fs-rndr-31 {
+    font-size: 7px;
+}
+.fs-xlm {
+    font-size: 18px;
+}
+.fs-xlm-1 {
+    font-size: 7px;
+}
+.fs-fet {
+    font-size: 11px;
+}
+.fs-fet-1 {
+    font-size: 5px;
+}
+.fs-aave {
+    font-size: 10px;
+}
+.fs-aave-1 {
+    font-size: 5px;
+}
+.fs-ldo {
+    font-size: 10px;
+}
+.fs-ldo-1 {
+    font-size: 4px;
+}
+.fs-ldo-2 {
+    font-size: 2px;
+}
+.fs-op {
+    font-size: 14px;
+}
+.fs-op-1 {
+    font-size: 4px;
+}
+.fs-vet {
+    font-size: 12px;
+}
+.fs-vet-1 {
+    font-size: 4px;
+}
+.fs-kas {
+    font-size: 15px;
+}
+.fs-kas-1 {
+    font-size: 6px;
+}
+.fs-leo-30 {
+    font-size: 7px;
+}
+.fs-leo-31 {
+    font-size: 4px;
+}
+.fs-uni {
+    font-size: 8px;
+}
+.fs-uni-1 {
+    font-size: 6px;
+}
+.fs-uni-2 {
+    font-size: 4px;
+}
+.fs-link {
+    font-size: 8px;
+}
+.fs-link-1 {
+    font-size: 6px;
+}
+.fs-link-2 {
+    font-size: 4px;
+}
+.fs-mnt {
+    font-size: 7px;
+}
+.fs-mnt-1 {
+    font-size: 6px;
+}
+.fs-matic {
+    font-size: 15px;
+}
+.fs-matic-1 {
+    font-size: 7px ;
+}
+.fs-ltc {
+    font-size: 17px;
+}
+.fs-ltc-1 {
+    font-size: 6px;
+}
+.fs-sand {
+    font-size: 10px;
+}
+.fs-sand-1 {
+    font-size: 5px;
+}
+.fs-xrp-30 {
+    font-size: 30px;
+}
+.fs-xrp-31 {
+    font-size: 11px;
+}
+.fs-xrp {
+    font-size: 40px;
+}
+.fs-xrp-1 {
+    font-size: 15px;
+}
+
+.mt-5 {
+    margin-top: 5px;
+}
+.mr-1 {
+    margin-right: 3px;
+}
+.mt-1 {
+    margin-top: 10px;
+}
+.logo {
+    display: flex;
+    align-items: center;
+    margin: 0 10px;
+}
+
+/* Betpando.io */
+.earnMenuButton-link {
+    display: inline-block;
+    align-items: flex-start;
+    margin-top: 0;
+    border: 0.5px solid #2E2D2F;
+    border-radius: 20px;
+}
+.earnMenuButton-block {
+    align-items: flex-start;
+    background: #000000;
+    border-radius: 18px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    margin: 0.3em 0 0;
+    padding: 0.35em;
+    text-align: center;
+    width: 100px;
+    margin-top: 0;
+
+}
+/* Positions */
+.relative {
+    position: relative;
+}
+.absolute {
+    position: absolute;
+}
+.green {
+    color: #84c47c;
+    line-height: 24px;
+}
+
+/* Navbar-Right */
+.right-navbar {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    height: 100%;
+    width: 80%;
+    top: 0;
+    bottom: 0;
+}
+/* Search Box */
+.flex-search {
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: flex-end;
+    right: 0;
+    left: 0;
+}
+.search-box {
+    position: relative;
+    z-index: 100;
+    display: flex;
+    align-items: center;
+    width: 100px;
+    height: 32px;
+    padding: 0 10px;
+    background: #202222;
+    border-bottom: none;
+}
+.search-input {
+    flex: 1 1;
+    width: 100%;
+    height: 32px;
+    margin: 0;
+    padding: 0 2px;
+    padding-left: 19px;
+    color: #fff;
+    font-weight: 400;
+    font-size: 14px;
+    font-family: Roboto,Arial,Helvetica,sans-serif;
+    line-height: 16px;
+    text-decoration: none;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    opacity: .23;
+}
+.search-box i {
+    font-size: 18px;
+    position: absolute;
+    color: #A7A9B4; 
+    left: 0;
+    padding-left: 5px;
+}
+.right-nav-btn {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+}
+.lang-span {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.lang-span {
+    flex-direction: row;
+    justify-content: space-evenly;
+    min-width: 70px;
+    padding: 5px;
+    color: #84c47c;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: -.01em;
+    cursor: pointer;
+}
+.lang-span {
+    margin: 0 3px;
+    background: #313333;
+    border-radius: 6px;
+}
+
+.login-span {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-right: 3px;
+    padding: 5px 10px 5px 5px;
+    color: #262626;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: -.01em;
+    background: #7ec17f;
+    border-radius: 6px;
+    cursor: pointer;
+}
+.W_ygz3 {
+    padding: 2px 10px 2px 20px;
+    color: #fff;
+    font-size: 12px;
+    white-space: nowrap;
+    background-color: #5c8456;
+    -webkit-clip-path: polygon(0 0,100% 0,100% 100%,0 100%,14px 50%);
+    clip-path: polygon(0 0,100% 0,100% 100%,0 100%,14px 50%);
+}
+.W_ygz3:before {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 10px;
+    background: inherit;
+    content: "";
+}
+.W_ygz3:before {
+    left: 10px;
+    -webkit-clip-path: polygon(0 0,10px 50%,0 100%);
+    clip-path: polygon(0 0,10px 50%,0 100%);
+}
+.MPWo15, .R0PFLx {
+    display: flex;
+    align-items: center;
+}
+.R0PFLx {
+    justify-content: flex-start;
+    padding: 0;
+    color: #fff;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    cursor: pointer;
+    opacity: .8;
+}
+/* End Header Section */
+
+
+
+/* Start Seconed Header Content (Watchlist) */
+.seconed-header {
+    position: relative;
+    z-index: 0;
+    display: flex;
+    margin-top: 3px;
+    margin-bottom: 3px;
+    justify-content: flex-start;
+}
+.top-container {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin-left: 1px;
+}
+/* Watchlist content */
+.watchlist-container {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 91.8%;
+    height: 42px;
+    background-color: #2E2D2F;
+    color: #fff;
+    opacity: 0.96;
+    left: 0;
+    font-size: 16px;
+    font-weight: 500;
+    margin-left: 0.5px;
+    border: 1px solid #2E2D2F;
+    border-radius: 3px;
+    padding: 0 90px 1px 1px;
+}
+
+.watchlist-container .watchlist {
+    box-sizing: border-box;
+    width: 100%;
+    height: 23px;
+    margin-left: 5px;
+    padding: 3px;
+    color: #fff;
+    font-weight: 400;
+    font-size: 16px;
+    font-family: Roboto,Arial,Helvetica,sans-serif;
+    line-height: 22px;
+    text-align: left;
+    background-color: transparent;
+    border: 0;
+    border-radius: 2px;
+    cursor: pointer;
+    transition: width .25s;
+}
+/* Plus Content */
+.plus-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 42px;
+    margin-right: 8px;
+    margin-left: 12px;
+    background-color: #2e2d2f;
+    cursor: pointer;
+    padding: 0 1px 0px 0px;
+    border: 1px solid #2E2D2F;
+    border-radius: 3px;
+    opacity: 0.95;
+}
+.plus-container .plus {
+    transform: rotate(45deg);
+    transition: opacity .5s;
+}
+
+/* Right-buttons Section (Watchlist) */
+
+.right-buttons {
+    display: flex;
+    align-items: center;
+    margin-right: 2px;
+    padding: 4px 0 4px 9px;
+    background: #313333;
+    border-radius: 6px;
+}
+.JhjuFP {
+    background: #313333!important;
+    cursor: default;
+    opacity: 1!important;
+}
+.CuG2z2 {
+    display: flex;
+    margin: 0;
+    color: #fff;
+    font-size: 14px;
+    background: #313333;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+.VkQtxF {
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    width: 24px;
+    height: 24px;
+    padding: 4px;
+    opacity: .8;
+}
+.VkQtxF:last-child {
+    margin-right: 10px;
+}
+.VkQtxF:not(:first-child) {
+    margin-left: 5px;
+}
+/* End Seconed Header Content */
+
+
+/* Start Main Content */
+.main {
+    display: flex;
+    flex: 1 1;
+    flex-flow: column nowrap;
+    height: 100%;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    position: relative;
+
+}
+.main-flex-row {
+    display: flex;
+    flex: 1 1;
+    flex-direction: row;
+}
+.main-flex-col {
+    display: flex;
+    flex: 1 1;
+    flex-direction: column;
+}
+.main-header {
+    position: relative;
+    z-index: 12;
+    justify-content: space-between;
+    width: 100%;
+    min-height: 44px;
+    margin-right: 2px;
+    color: #959595;
+    font-size: 14px;
+    font-family: Roboto,Arial,Helvetica,sans-serif;
+    background-color: #1d1f1e;
+    overflow: hidden;
+
+}
+.main-header .main-header-left {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.main-header .main-header-left .back-icon {
+    position: relative;
+    z-index: 99;
+}
+.z-1 {
+    z-index: 1;
+}
+
+.back-icon-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 32px;
+    height: 32px;
+    margin-right: 4px;
+    margin-left: 4px;
+    background-color: #2a2b2b;
+    border-radius: 6px;
+    cursor: pointer;
+}
+.back-icon-container:hover {
+    background-color: #333;
+}
+.pd-top {
+    padding-top: 4px;
+    color: red;
+}
+
+.header-left-btn {
+    display: flex;
+    align-items: baseline;
+    transform: translateX(0);
+    transition: transform .3s;
+}
+.hover:hover {
+    background-color: #333333;
+}
+.mr-4>* {
+    margin-right: 4px;
+}
+.btn {
+    position: relative;
+    box-sizing: border-box;
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 6px;
+    background-color: #2a2b2b;
+    height: 32px;
+    padding: 0 10px;
+    min-width: -moz-fit-content;
+    min-width: fit-content;
+    transition: background-color .2s;
+    color: hsla(0,0%,100%,.5);
+}
+.btn .btn-span {
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    height: 32px;
+    white-space: nowrap;
+}
+.static-100 {
+    position: static;
+    box-sizing: border-box;
+    width: 100%;
+}
+.a11y-text {
+    z-index: 9999;
+    border: 0;
+    clip: rect(1px, 1px, 1px, 1px);
+    height: 1px;
+    width: 1px;
+    position: absolute;
+    overflow: hidden;
+    padding: 0;
+    white-space: nowrap;
+}
+.css-1kt7wmo-control {
+    -webkit-align-items: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    background-color: hsl(0, 0%, 100%);
+    border-color: hsl(0, 0%, 80%);
+    border-radius: 0;
+    border-style: solid;
+    border-width: 1px;
+    box-shadow: none;
+    cursor: pointer;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-flex-wrap: wrap;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    justify-content: space-between;
+    min-height: 38px;
+    outline: 0!important;
+    position: static;
+    -webkit-transition: all 100ms;
+    transition: all 100ms;
+    box-sizing: border-box;
+    font-size: 14px;
+    width: 100%;
+    text-align: left;
+    background: none;
+    border: 0;
+}
+.css-1d9prk1 {
+    -webkit-align-items: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    -webkit-box-flex-wrap: wrap;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    padding: 0;
+    -webkit-overflow-scrolling: touch;
+    position: relative;
+    overflow: hidden;
+    box-sizing: border-box;
+    padding-left: 4px;
+    height: 32px;
+    color: #fff;
+}
+.css-1hac4vs-dummyInput {
+    background: 0;
+    border: 0;
+    caret-color: transparent;
+    font-size: inherit;
+    grid-area: 1/1/2/3;
+    outline: 0;
+    padding: 0;
+    width: 1px;
+    color: transparent;
+    left: -100px;
+    opacity: 0;
+    position: relative;
+    -webkit-transform: scale(.01);
+    -moz-transform: scale(.01);
+    -ms-transform: scale(.01);
+    transform: scale(.01);
+}
+.css-43ykx9-indicatorSeparator {
+    -webkit-align-self: stretch;
+    -ms-flex-item-align: stretch;
+    align-self: stretch;
+    background-color: hsl(0, 0%, 80%);
+    margin-bottom: 8px;
+    margin-top: 8px;
+    width: 1px;
+    box-sizing: border-box;
+    display: none;
+}
+.css-1u8axtk {
+    -webkit-align-items: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-align-self: stretch;
+    -ms-flex-item-align: stretch;
+    align-self: stretch;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-shrink: 0;
+    -ms-flex-negative: 0;
+    flex-shrink: 0;
+    box-sizing: border-box;
+    margin-left: 10px;
+}
+
+/* Start Main Header Right Content */
+.width-shadow {
+    z-index: 2;
+    min-width: 215px;
+    box-shadow: -15px 0 15px 0 #1d1f1e;
+}
+.main-header .main-header-right{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-end;
+    padding: 1px;
+    margin-top: -33px;
+}
+
+.first-btn-flex {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    max-width: 36px;
+    height: 25px;
+}
+.first-btn {
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    cursor: pointer;
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    background: #313333;
+    border-radius: 6px;
+    padding: 4px 10px;
+    margin-right: 4px;
+}
+.flex-m0 {
+    display: flex;
+    margin: 0;
+}
+.mr-7 {
+    margin-right: 7px;
+}
+div {
+    -webkit-tap-highlight-color: transparent;
+}
+.map-btn {
+    display: flex;
+    align-items: center;
+    margin-right: 4px;
+    padding: 4px 0 4px 9px;
+    background: #313333;
+    border-radius: 6px;
+}
+
+.share-btn {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    min-width: 103px;
+    height: 32px;
+    color: #84c47c;
+    background: #313333;
+    border-radius: 6px;
+    cursor: pointer;
+}
+.share-btn .fs-green {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    color: #84c47c;
+}
+
+
+
+.bkfCzy {
+    display: flex;
+    flex: 1 1;
+    flex-direction: row;
+}
+.NQAD9v {
+    flex: 1 1;
+    background-color: #1d1f1e;
+}
+.hOKHhN {
+    position: relative;
+    overflow: hidden;
+}
+.CpEfBg {
+    position: fixed;
+    bottom: 44px;
+    left: 20px;
+    z-index: 3;
+    display: flex;
+    flex-direction: column;
+}
+.CpEfBg ._9Upbrr:first-child {
+    margin-top: 0;
+    border-radius: 2px 2px 0 0;
+}
+.CpEfBg ._9Upbrr {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 32px;
+    height: 32px;
+    margin-top: 2px;
+    background: #323333;
+    cursor: pointer;
+    opacity: .5;
+}
+
+/* Start BTC, ETH, ... */
+.hOKHhN ._556zxb {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    overflow: hidden;
+    transform-origin: 0 0 0;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    perspective: 1000;
+    cursor: pointer;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizelegibility;
+    -webkit-text-size-adjust: none;
+    -moz-text-size-adjust: none;
+    text-size-adjust: none;
+}
+.fRHSri {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    overflow: hidden;
+}
+.fRHSri .d26ypj {
+    position: relative;
+    margin: 2px 0 0 2px;
+    padding: 0 0 25px;
+    color: #f0f0f1;
+    font-weight: 700;
+    line-height: 1em;
+    text-transform: capitalize;
+    text-overflow: ellipsis;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizelegibility;
+    -webkit-text-size-adjust: none;
+    -moz-text-size-adjust: none;
+    text-size-adjust: none;
+}
+.fRHSri ._8JeoG_ {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-sizing: border-box;
+    width: 100%;
+    padding-top: 1px;
+    padding-right: 5px;
+}
+.fRHSri .LYhuVc {
+    display: inline-block;
+    width: 100%;
+    font-family: PlexSans,serif;
+    text-overflow: ellipsis;
+}
+.mTpAkD {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    justify-content: flex-end;
+    overflow: hidden;
+    font-weight: 400;
+    font-family: Roboto, Arial,Helvetica,sans-serif;
+    text-decoration: none;
+    text-shadow: 0.015em 0.015em 0 rgba(50,49,54,.28);
+    background: rgba(50,50,51,0);
+    opacity: 0.9;
+}
+.mTpAkD .k28UP7 {
+    position: relative;
+    color: #fff;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    text-shadow: 0.015em 0.015em 0 rgba(50,49,54,.28);
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizelegibility;
+    -webkit-text-size-adjust: none;
+    -moz-text-size-adjust: none;
+    text-size-adjust: none;
+}
+.mTpAkD ._66rAhH {
+    position: absolute;
+    cursor: pointer;
+    opacity: 0;
+    transition: .2s;
+}
+.mTpAkD ._66rAhH path {
+    stroke: hsla(0,0%,100%,0)!important;
+    fill-opacity: 20%;
+}
+.mTpAkD ._7TaEAE {
+    position: relative;
+    display: flex;
+    align-items: center;
+    color: #fff;
+    line-height: 1em;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    text-shadow: 0.015em 0.015em 0 rgba(50,49,54,.28);
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizelegibility;
+    -webkit-text-size-adjust: none;
+    -moz-text-size-adjust: none;
+    text-size-adjust: none;
+
+}
+.mTpAkD .G9mNIj {
+    line-height: 1em;
+}
+.mTpAkD .G9mNIj, .mTpAkD .k28UP7 {
+    position: relative;
+    color: #fff;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    text-shadow: 0.015em 0.015em 0 rgba(50,49,54,.28);
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizelegibility;
+    -webkit-text-size-adjust: none;
+    -moz-text-size-adjust: none;
+    text-size-adjust: none;
+}
+ .gO_9jc {
+    position: relative;
+    color: #fff;
+    text-align: center;
+    text-shadow: 0.015em 0.015em 0 rgba(50,49,54,.28);
+    bottom: 0px;
+}
+
+/* font-size */
+.fs-2 {
+    font-size: 2px;
+}
+.fs-1 {
+    font-size: 1px;
+}
+.fs-3 {
+    font-size: 3px;
+}
+.fs-beamx {
+    font-size: 4px;
+}
+/* flex */
+.flex {
+    display: flex;
+}
+.flex-col {
+    flex-direction: column;
+}
+.flex-row {
+    flex-direction: row;
+}
+.justify-start {
+    justify-content: flex-start;
+}
+.justify-between {
+    justify-content: space-between;
+}
+.text-center {
+    text-align: center;
+    margin-top: 40%;
+}
+.bg-dark-red {
+    background-color: #C84040;
+}
+.bg-green {
+    background-color: #7ec17f;
+}
+.bg-red {
+    background-color: #ED7171;
+}
+.bg-dark-green {
+    background-color: #518651;
+}
+.fs-112 {
+    font-size: 112px;
+}
+.border-hover {
+    border: 0.2rem solid transparent; 
+}
+
+.border-hover:hover {
+    border-color: #FFA500;
+    transition: border-color 0s;
+}
+main {
+    height: 50px;
+}
+
+/* Currencies SECTION */
+.currencies {
+    display: grid;
+    grid-template-columns: 44% 2% 18% 18% 18%;
+    height: 680px;
+    text-align: center;
+    background-color: #000;
+    color: #fff;
+    gap: 1px;
+    z-index: 10000;
+}
+
+/* Container-1 Content */
+.container-1 {
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 100%;
+}
+
+/* Container-2 Content */
+.container-2 {
+    display: grid;
+    height: auto;
+    grid-template-columns: 100%;
+    grid-template-rows: 50% 39% 7% 4%;
+}
+
+/* Container-3 Content */
+.container-3 {
+    height: auto;
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 75% 25%;
+    margin-left: 4px;
+}
+
+/* Container-4 Content */
+.container-4 {
+    width: 100%;
+    height: auto;
+    display: grid;
+    gap: 1px;
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+    grid-template-areas:
+                        'sol sol sol sol sol xrp xrp xrp xrp xrp xrp xrp xrp'
+                        'sol sol sol sol sol xrp xrp xrp xrp xrp xrp xrp xrp'
+                        'sol sol sol sol sol xrp xrp xrp xrp xrp xrp xrp xrp'
+                        'sol sol sol sol sol xrp xrp xrp xrp xrp xrp xrp xrp'
+                        'sol sol sol sol sol avax avax avax avax ada ada ada ada'
+                        'sol sol sol sol sol avax avax avax avax ada ada ada ada'
+                        'sol sol sol sol sol avax avax avax avax ada ada ada ada'
+                        'sol sol sol sol sol avax avax avax avax ada ada ada ada'
+                        'sol sol sol sol sol avax avax avax avax ada ada ada ada'
+                        'sol sol sol sol sol avax avax avax avax ada ada ada ada'
+                        'sol sol sol sol sol avax avax avax avax ada ada ada ada'
+                        'sol sol sol sol sol avax avax avax avax ada ada ada ada'
+                        'sol sol sol sol sol avax avax avax avax ada ada ada ada'
+                        'sol sol sol sol sol avax avax avax avax ada ada ada ada'
+                        'sol sol sol sol sol avax avax avax avax ada ada ada ada'
+                        'sol sol sol sol sol avax avax avax avax ada ada ada ada'
+                        'sol sol sol sol sol avax avax avax avax ada ada ada ada'
+                        'sol sol sol sol sol avax avax avax avax ada ada ada ada'
+                        'sol sol sol sol sol avax avax avax avax ada ada ada ada'
+                        'sol sol sol sol sol avax avax avax avax ada ada ada ada'
+                        'sol sol sol sol sol avax avax avax avax ada ada ada ada'
+                        'sol sol sol sol sol avax avax avax avax ada ada ada ada'
+                        'sol sol sol sol sol avax avax avax avax ada ada ada ada'
+                        'sol sol sol sol sol avax avax avax avax ada ada ada ada'
+                        'sol sol sol sol sol avax avax avax avax ada ada ada ada'
+                        'sol sol sol sol sol avax avax avax avax ada ada ada ada'
+                        'sol sol sol sol sol avax avax avax avax ada ada ada ada'
+                        'sol sol sol sol sol avax avax avax avax ada ada ada ada'
+                        'sol sol sol sol sol avax avax avax avax ada ada ada ada'
+                        'sol sol sol sol sol avax avax avax avax ada ada ada ada'
+                        'sol sol sol sol sol avax avax avax avax ada ada ada ada'
+                        'sol sol sol sol sol avax avax avax avax ada ada ada ada'
+                        'sol sol sol sol sol avax avax avax avax ada ada ada ada'
+                        'sol sol sol sol sol avax avax avax avax ada ada ada ada'
+                        'sol sol sol sol sol avax avax avax avax ada ada ada ada'
+                        'sol sol sol sol sol avax avax avax avax ada ada ada ada'
+                        'sol sol sol sol sol avax avax avax avax ada ada ada ada'
+                        'sol sol sol sol sol avax avax avax avax ada ada ada ada'
+                        'sol sol sol sol sol avax avax avax avax ada ada ada ada'
+                        'sol sol sol sol sol avax avax avax avax ada ada ada ada'
+                        'sol sol sol sol sol avax avax avax avax ada ada ada ada'
+                        'sol sol sol sol sol avax avax avax avax ada ada ada ada'
+                        'sol sol sol sol sol avax avax avax avax ada ada ada ada'
+                        'sol sol sol sol sol avax avax avax avax ada ada ada ada'
+                        'sol sol sol sol sol avax avax avax avax ada ada ada ada'
+                        'sol sol sol sol sol avax avax avax avax ada ada ada ada'
+                        'sol sol sol sol sol avax avax avax avax ada ada ada ada'
+                        'sol sol sol sol sol avax avax avax avax ada ada ada ada'
+                        'sol sol sol sol sol avax avax avax avax ada ada ada ada'
+                        'sol sol sol sol sol avax avax avax avax ada ada ada ada'
+                        'dot dot dot dot trx trx trx apt apt apt ltc ltc ltc'
+                        'dot dot dot dot trx trx trx apt apt apt ltc ltc ltc'
+                        'dot dot dot dot trx trx trx apt apt apt ltc ltc ltc'
+                        'dot dot dot dot trx trx trx apt apt apt ltc ltc ltc'
+                        'dot dot dot dot trx trx trx apt apt apt ltc ltc ltc'
+                        'dot dot dot dot trx trx trx apt apt apt ltc ltc ltc'
+                        'dot dot dot dot trx trx trx apt apt apt ltc ltc ltc'
+                        'dot dot dot dot trx trx trx apt apt apt ltc ltc ltc'
+                        'dot dot dot dot trx trx trx apt apt apt ltc ltc ltc'
+                        'dot dot dot dot trx trx trx apt apt apt ltc ltc ltc'
+                        'dot dot dot dot trx trx trx apt apt apt ltc ltc ltc'
+                        'dot dot dot dot trx trx trx apt apt apt ltc ltc ltc'
+                        'dot dot dot dot trx trx trx atom atom etc etc arb arb'
+                        'dot dot dot dot trx trx trx atom atom etc etc arb arb'
+                        'dot dot dot dot trx trx trx atom atom etc etc arb arb'
+                        'dot dot dot dot trx trx trx atom atom etc etc arb arb'
+                        'dot dot dot dot trx trx trx atom atom etc etc arb arb'
+                        'dot dot dot dot trx trx trx atom atom etc etc arb arb'
+                        'dot dot dot dot trx trx trx atom atom etc etc arb arb'
+                        'dot dot dot dot trx trx trx atom atom etc etc cfx cfx'
+                        'dot dot dot dot trx trx trx atom atom etc etc cfx cfx'
+                        'dot dot dot dot trx trx trx atom atom kas kas cfx cfx'
+                        'matic matic matic matic matic imx imx imx imx kas kas cfx cfx'
+                        'matic matic matic matic matic imx imx imx imx kas kas cfx cfx'
+                        'matic matic matic matic matic imx imx imx imx kas kas cfx cfx'
+                        'matic matic matic matic matic imx imx imx imx kas kas btt btt'
+                        'matic matic matic matic matic imx imx imx imx kas kas btt btt'
+                        'matic matic matic matic matic imx imx imx imx kas kas btt btt'
+                        'matic matic matic matic matic imx imx imx imx kas kas btt btt'
+                        'matic matic matic matic matic imx imx imx imx kas kas tia tia'
+                        'icp icp icp near near near xlm xlm xlm xlm ftm tia tia'
+                        'icp icp icp near near near xlm xlm xlm xlm ftm tia tia'
+                        'icp icp icp near near near xlm xlm xlm xlm ftm tia tia'
+                        'icp icp icp near near near xlm xlm xlm xlm ftm tia tia'
+                        'icp icp icp near near near xlm xlm xlm xlm ftm neo zzz'
+                        'icp icp icp near near near xlm xlm xlm xlm algo neo zzz'
+                        'icp icp icp near near near op op vet vet algo neo zzz'
+                        'icp icp icp near near near op op vet vet algo neo zzz'
+                        'icp icp icp near near near op op vet vet algo neo zzz'
+                        'icp icp icp near near near op op vet vet algo w zzz'
+                        'icp icp icp near near near op op vet vet flow w ys'
+                        'icp icp icp near near near op op vet vet flow w ys'
+                        'icp icp icp near near near op op vet vet flow w ys'
+                        'icp icp icp near near near op op vet vet flow w yy'
+                        ;
+}
+.w {
+    grid-area: w;
+}
+.neo {
+    grid-area: neo;
+}
+.btt {
+    grid-area: btt;
+}
+/* last-containers Content (5 to 7) */
+.last-containers {
+    display: grid;
+    width: 100%;
+    height: auto;
+    grid-template-columns: 94% 94% 94%;
+    grid-template-rows: 40% 20% 40%;
+    grid-template-areas: 'container-5'
+                         'container-6'
+                         'container-7';
+    margin-left: 8px;
+    z-index: 1000;
+}
+
+/* Container-5 Content */
+.container-5 {
+    display: grid;
+    width: auto;
+    height: auto;
+    border: 1px solid #000;
+    grid-area: container-5;
+    gap: 1px;
+    grid-template-areas: 
+                        'ton ton ton ton ton ton leo leo fil fil'
+                        'ton ton ton ton ton ton leo leo fil fil'
+                        'ton ton ton ton ton ton leo leo fil fil'
+                        'ton ton ton ton ton ton leo leo fil fil'
+                        'ton ton ton ton ton ton leo leo cro cro'
+                        'ton ton ton ton ton ton mnt mnt cro cro'
+                        'ton ton ton ton ton ton mnt mnt cro cro'
+                        'ton ton ton ton ton ton mnt mnt cro cro'
+                        'ton ton ton ton ton ton core sei sei beam'
+                        'tao tao tao wif wif wif core sei sei beam'
+                        'tao tao tao wif wif wif ar flr flr beamx'
+                        'tao tao tao jup jup jup ar yy pp xmr'
+                        'hbar hbar wbeth okb okb usde bonk dat ena ll'
+                        'hbar hbar wbeth okb okb usde bonk bgb xx zz';
+}
+
+/* Container-6 Content */
+.container-6 {
+    display: grid;
+    width: auto;
+    height: auto;
+    border: 1px solid #000;
+    margin-top: 10px ;
+    grid-area: container-6;
+    gap: 1px;
+    grid-template-areas: 'doge doge doge doge doge shib shib shib shib shib'
+                         'doge doge doge doge doge shib shib shib shib shib'
+                         'doge doge doge doge doge shib shib shib shib shib'
+                         'doge doge doge doge doge shib shib shib shib shib'
+                         'doge doge doge doge doge shib shib shib shib shib'
+                         'doge doge doge doge doge shib shib shib shib shib'
+                         'doge doge doge doge doge shib shib shib shib shib'
+                         'doge doge doge doge doge pepe pepe pepe floki floki'
+                         ;
+}
+
+/* Container-7 Content */
+.container-7 {
+    display: grid;
+    width: auto;
+    height: auto;
+    border: 1px solid #000;
+    grid-area: container-7;
+    gap: 1px;
+    margin-top: 10px;
+    grid-template-areas: 'link link link link link link uni uni uni rndr rndr rndr rndr rndr'
+                         'link link link link link link uni uni uni rndr rndr rndr rndr rndr'
+                         'link link link link link link uni uni uni rndr rndr rndr rndr rndr'
+                         'link link link link link link uni uni uni theta theta fet fet fet'
+                         'link link link link link link uni uni uni theta theta fet fet fet'
+                         'link link link link link link uni uni uni theta theta sand x x'
+                         'link link link link link link uni uni uni theta theta sand y yz'
+                         'stx stx stx stx stx grt grt grt inj inj inj fdusd fdusd fdusd'
+                         'stx stx stx stx stx grt grt grt inj inj inj fdusd fdusd fdusd'
+                         'stx stx stx stx stx rune rune ldo ldo aave aave fdusd fdusd fdusd'
+                         'mkr mkr mkr mkr mkr rune rune ldo ldo aave aave fdusd fdusd fdusd'
+                         'mkr mkr mkr mkr mkr rune rune ldo ldo ys yd fdusd fdusd fdusd'
+                         'mkr mkr mkr mkr mkr rune rune ldo ldo ys yo fdusd fdusd fdusd';
+}
+
+
+
+/* Start Grid Areas Content */
+.container-10 {
+    grid-area: container-10;
+}
+.container-20 {
+    grid-area: container-20;
+}
+.bnb {
+    grid-area: bnb;
+}
+.eth {
+    grid-area: eth;
+}
+.mkr {
+    grid-area: mkr;
+}
+.yo {
+    grid-area: yo;
+}
+.yd {
+    grid-area: yd;
+}
+.aave {
+    grid-area: aave;
+}
+.ldo {
+    grid-area: ldo;
+}
+.rune {
+    grid-area: rune;
+}
+.fdusd {
+    grid-area: fdusd;
+}
+.fet {
+    grid-area: fet;
+}
+.weeth {
+    grid-area: weeth;
+}
+.xim {
+    grid-area: xim;
+}
+.fill {
+    grid-area: fill;
+}
+.webth {
+    grid-area: webth;
+}
+.wef {
+    grid-area: wef;
+}
+.xo {
+    grid-area: xo;
+}
+.xd {
+    grid-area: xd;
+}
+.eed {
+    grid-area: eed;
+}
+.ee {
+    grid-area: ee;
+}
+.ees {
+    grid-area: ees;
+}
+.eee {
+    grid-area: eee;
+}
+.yyy {
+    grid-area: yyy;
+}
+.zzz {
+    grid-area: zzz;
+}
+.y {
+    grid-area: y;
+}
+.q {
+    grid-area: q;
+}
+.lgbt {
+    grid-area: lgbt;
+}
+.yz {
+    grid-area: yz;
+}
+.ys {
+    grid-area: ys;
+}
+.x {
+    grid-area: x;
+}
+.gala {
+    grid-area: gala;
+}
+.sand {
+    grid-area: sand;
+}
+.inj {
+    grid-area: inj;
+}
+.grt {
+    grid-area: grt;
+}
+.stx {
+    grid-area: stx;
+}
+.fet {
+    grid-area: fet;
+}
+.theta {
+    grid-area: theta;
+}
+.rndr {
+    grid-area: rndr;
+}
+.uni {
+    grid-area: uni;
+}
+.link {
+    grid-area: link;
+}
+.ds {
+    grid-area: ds;
+}
+.pepe {
+    grid-area: pepe;
+}
+.floki {
+    grid-area: floki;
+}
+.shib {
+    grid-area: shib;
+}
+.doge {
+    grid-area: doge;
+}
+.pp {
+    grid-area: pp;
+}
+.ll {
+    grid-area: ll;
+}
+.zz {
+    grid-area: zz;
+}
+.xx {
+    grid-area: xx;
+}
+.op {
+    grid-area: op;
+}
+.algoxyg {
+    grid-area: algoxyg;
+}
+.algoxy {
+    grid-area: algoxy;
+}
+.yy {
+    grid-area: yy;
+}
+.tao {
+    grid-area: tao;
+}
+.wif {
+    grid-area: wif;
+}
+.flr {
+    grid-area: flr;
+}
+.ena {
+    grid-area: ena;
+}
+.dat {
+    grid-area: dat;
+}
+.bonk {
+    grid-area: bonk;
+}
+.sei {
+    grid-area: sei;
+}
+.usde {
+    grid-area: usde;
+}
+.jup {
+    grid-area: jup;
+}
+.wbeth {
+    grid-area: wbeth;
+}
+.okb {
+    grid-area: okb;
+}
+.hbar {
+    grid-area: hbar;
+}
+.beamx {
+    grid-area: beamx;
+}
+.ar {
+    grid-area: ar;
+}
+.xmr {
+    grid-area: xmr;
+}
+.beam {
+    grid-area: beam;
+}
+.bgb {
+    grid-area: bgb;
+}
+.core {
+    grid-area: core;
+}
+.ton {
+    grid-area: ton;
+}
+.mnt {
+    grid-area: mnt;
+}
+.cro {
+    grid-area: cro;
+}
+.fil {
+    grid-area: fil;
+}
+.leo {
+    grid-area: leo;
+}
+.z {
+    grid-area: z;
+}
+.y {
+    grid-area: y;
+}
+.cfx {
+    grid-area: cfx;
+}
+.qnt {
+    grid-area: qnt;
+}
+.flow {
+    grid-area: flow;
+}
+.algo {
+    grid-area: algo;
+}
+.vet {
+    grid-area: vet;
+}
+.near {
+    grid-area: near;
+}
+.tia {
+    grid-area: tia;
+}
+.ftm {
+    grid-area: ftm;
+}
+.xlm {
+    grid-area: xlm;
+}
+.apt {
+    grid-area: apt;
+}
+.op {
+    grid-area: op;
+}
+.pyu {
+    grid-area: pyu;
+}
+.imx {
+    grid-area: imx;
+}
+.kas {
+    grid-area: kas;
+}
+.atom {
+    grid-area: atom;
+}
+.arb {
+    grid-area: arb;
+}
+.etc {
+    grid-area: etc;
+}
+.icp {
+    grid-area: icp;
+}
+.ltc {
+    grid-area: ltc;
+}
+.trx {
+    grid-area: trx;
+}
+.dot {
+    grid-area: dot;
+}
+.sol {
+    grid-area: sol;
+}
+.xrp {
+    grid-area: xrp;
+}
+.ada {
+    grid-area: ada;
+}
+.avax {
+    grid-area: avax;
+}
+.matic {
+    grid-area: matic;
+}
+.eth {
+    grid-area: eth;
+}
+.bnb {
+    grid-area: bnb;
+}
+.btc {
+    grid-area: btc;
+}
+.wbtc {
+    grid-area: wbtc;
+}
+.bch {
+    grid-area: bch;
+}
+.bsv {
+    grid-area: bsv;
+}
+.ordi {
+    grid-area: ordi;
+}
+/* End Grid Areas Content */
+
+

@@ -1,0 +1,3289 @@
+
+/* RESPONSIVE HEIGHT (440px - 980px) */
+
+/* DISPLAY NONE Container-6 */
+@media (min-height: 656px) and (max-height: 10000px) {
+  .doge-7 {
+    display: none !important;
+  }
+  .shib-7 {
+    display: none !important;
+  }
+  .floki-7 {
+    display: none !important;
+  }
+  .pepe-7 {
+    display: none !important;
+  }
+}
+
+
+
+
+
+/* 375 */
+@media (min-height: 420px) and (max-height: 429px) {
+  .top-header {
+    display: none !important;
+  }
+  .seconed-header {
+    display: none !important;
+  }
+  .main {
+    display: none !important;
+  }
+  .currencies {
+    grid-template-rows: 375px !important;
+  }
+  .fs-floki-7 {
+    font-size: 7px !important;
+  }
+  .fs-floki-71 {
+    font-size: 4px !important;
+  }
+  .fs-pepe-7 {
+    font-size: 7px !important;
+  }
+  .fs-pepe-71 {
+    font-size: 4px !important;
+  }
+  .fs-ldo {
+    font-size: 7px !important;
+  }
+  .fs-ldo-1 {
+    font-size: 3px !important;
+  }
+  .fs-rune {
+    font-size: 7px !important;
+  }
+  .fs-aave {
+    font-size: 7px !important;
+  }
+  .fs-aave-1 {
+    font-size: 4px !important;
+  }
+  .fs-rune-1 {
+    font-size: 3px !important;
+  }
+  .fs-rune-2 {
+    font-size: 2px !important;
+  }
+  .fs-grt {
+    font-size: 10px !important;
+  }
+  .fs-grt-1 {
+    font-size: 3px !important;
+  }
+  .fs-inj-7 {
+    font-size: 10px !important;
+  }
+  .fs-inj-71 {
+    font-size: 4px !important;
+  }
+  .fs-rndr {
+    font-size: 12px !important;
+  }
+  .fs-theta {
+    font-size: 10px !important;
+  }
+  .fs-fdusd {
+    font-size: 12px !important;
+  }
+  .fs-stx {
+    font-size: 9px !important;
+  }
+  .fs-stx-1 {
+    font-size: 5px !important;
+  }
+  .fs-mkr {
+    font-size: 9px !important;
+  }
+  .fs-mkr-1 {
+    font-size: 4px !important;
+  }
+  .fs-rndr {
+    font-size: 12px !important;
+  }
+  .fs-theta {
+    font-size: 10px !important;
+  }
+  .fs-fdusd {
+    font-size: 12px !important;
+  }
+  .last-containers {
+    display: grid;
+    width: 100%;
+    height: auto;
+    grid-template-columns: 90% 90% !important;
+    grid-template-rows: 50% 50% !important;
+    grid-template-areas: 'container-5'
+                        'container-7' !important;
+    margin-left: 8px;
+    z-index: 1000;
+  }
+  .container-5 {
+    display: grid;
+    height: auto !important;
+  }
+  .container-6 {
+    display: none !important;
+  }
+  .container-7 {
+    display: grid;
+    grid-template-areas: 'link link link link link link uni uni uni rndr rndr rndr rndr rndr'
+                         'link link link link link link uni uni uni rndr rndr rndr rndr rndr'
+                         'link link link link link link uni uni uni rndr rndr rndr rndr rndr'
+                         'link link link link link link uni uni uni theta theta fet fet fet'
+                         'link link link link link link uni uni uni theta theta fet fet fet'
+                         'link link link link link link uni uni uni theta theta sand x x'
+                         'link link link link link link uni uni uni theta theta sand y yz'
+                         'stx stx stx stx stx grt grt grt inj inj inj fdusd fdusd doge'
+                         'stx stx stx stx stx grt grt grt inj inj inj fdusd fdusd doge'
+                         'stx stx stx stx stx rune rune ldo ldo aave aave fdusd fdusd doge'
+                         'mkr mkr mkr mkr mkr rune rune ldo ldo aave aave fdusd fdusd shib'
+                         'mkr mkr mkr mkr mkr rune rune ldo ldo ys yd fdusd fdusd shib'
+                         'mkr mkr mkr mkr mkr floki floki pepe pepe ys yo fdusd fdusd shib' !important;
+    margin-top: 12px !important;
+    height: auto !important;
+  }
+  .doge-7 {
+    grid-area: doge;
+  }
+  .fs-doge-7 {
+    font-size: 10px !important;
+  }
+  .fs-shib-7 {
+    font-size: 10px !important;
+  }
+  .shib-7 {
+    grid-area: shib;
+  }
+  .pepe-7 {
+    grid-area: pepe;
+  }
+  .floki-7 {
+    grid-area: floki;
+  }
+  .fs-eth {
+    font-size: 110px !important;
+  }
+  .fs-eth-1 {
+    font-size: 38px !important;
+  }
+  .fs-eth-2 {
+    font-size: 20px !important;
+  }
+  .fs-btc {
+    font-size: 175px !important;
+  }
+  .fs-btc-1 {
+    font-size: 53px !important;
+  }
+  .fs-btc-2 {
+    font-size: 30px !important;
+  }
+  .fs-btc-3 {
+    font-size: 16px !important;
+  }
+}
+/* 385 */
+@media (min-height: 430px) and (max-height: 439px) {
+  .top-header {
+    display: none !important;
+  }
+  .seconed-header {
+    display: none !important;
+  }
+  .main {
+    display: none !important;
+  }
+  .currencies {
+    grid-template-rows: 385px !important;
+  }
+  .fs-stx {
+    font-size: 9px !important;
+  }
+  .fs-stx-1 {
+    font-size: 5px !important;
+  }
+  .fs-mkr {
+    font-size: 9px !important;
+  }
+  .fs-mkr-1 {
+    font-size: 4px !important;
+  }
+  .fs-floki-7 {
+    font-size: 7px !important;
+  }
+  .fs-floki-71 {
+    font-size: 4px !important;
+  }
+  .fs-pepe-7 {
+    font-size: 7px !important;
+  }
+  .fs-pepe-71 {
+    font-size: 4px !important;
+  }
+  .fs-ldo {
+    font-size: 7px !important;
+  }
+  .fs-ldo-1 {
+    font-size: 3px !important;
+  }
+  .fs-rune {
+    font-size: 7px !important;
+  }
+  .fs-aave {
+    font-size: 7px !important;
+  }
+  .fs-aave-1 {
+    font-size: 4px !important;
+  }
+  .fs-rune-1 {
+    font-size: 3px !important;
+  }
+  .fs-rune-2 {
+    font-size: 2px !important;
+  }
+  .fs-grt {
+    font-size: 10px !important;
+  }
+  .fs-grt-1 {
+    font-size: 3px !important;
+  }
+  .fs-inj-7 {
+    font-size: 10px !important;
+  }
+  .fs-inj-71 {
+    font-size: 4px !important;
+  }
+  .fs-rndr {
+    font-size: 12px !important;
+  }
+  .fs-theta {
+    font-size: 10px !important;
+  }
+  .fs-fdusd {
+    font-size: 12px !important;
+  }
+  .last-containers {
+    display: grid;
+    width: 100%;
+    height: auto;
+    grid-template-columns: 90% 90% !important;
+    grid-template-rows: 50% 50% !important;
+    grid-template-areas: 'container-5'
+                        'container-7' !important;
+    margin-left: 8px;
+    z-index: 1000;
+  }
+  .container-5 {
+    display: grid;
+    height: auto !important;
+  }
+  .container-6 {
+    display: none !important;
+  }
+  .container-7 {
+    display: grid;
+    grid-template-areas: 'link link link link link link uni uni uni rndr rndr rndr rndr rndr'
+                         'link link link link link link uni uni uni rndr rndr rndr rndr rndr'
+                         'link link link link link link uni uni uni rndr rndr rndr rndr rndr'
+                         'link link link link link link uni uni uni theta theta fet fet fet'
+                         'link link link link link link uni uni uni theta theta fet fet fet'
+                         'link link link link link link uni uni uni theta theta sand x x'
+                         'link link link link link link uni uni uni theta theta sand y yz'
+                         'stx stx stx stx stx grt grt grt inj inj inj fdusd fdusd doge'
+                         'stx stx stx stx stx grt grt grt inj inj inj fdusd fdusd doge'
+                         'stx stx stx stx stx rune rune ldo ldo aave aave fdusd fdusd doge'
+                         'mkr mkr mkr mkr mkr rune rune ldo ldo aave aave fdusd fdusd shib'
+                         'mkr mkr mkr mkr mkr rune rune ldo ldo ys yd fdusd fdusd shib'
+                         'mkr mkr mkr mkr mkr floki floki pepe pepe ys yo fdusd fdusd shib' !important;
+    margin-top: 12px !important;
+    height: auto !important;
+  }
+  .doge-7 {
+    grid-area: doge;
+  }
+  .fs-doge-7 {
+    font-size: 10px !important;
+  }
+  .fs-shib-7 {
+    font-size: 10px !important;
+  }
+  .shib-7 {
+    grid-area: shib;
+  }
+  .pepe-7 {
+    grid-area: pepe;
+  }
+  .floki-7 {
+    grid-area: floki;
+  }
+  .fs-eth {
+    font-size: 110px !important;
+  }
+  .fs-eth-1 {
+    font-size: 38px !important;
+  }
+  .fs-eth-2 {
+    font-size: 20px !important;
+  }
+  .fs-btc {
+    font-size: 180px !important;
+  }
+  .fs-btc-1 {
+    font-size: 56px !important;
+  }
+  .fs-btc-2 {
+    font-size: 32px !important;
+  }
+  .fs-btc-3 {
+    font-size: 18px !important;
+  }
+}
+/* 395 */
+@media (min-height: 440px) and (max-height: 449px) {
+  .top-header {
+    display: none !important;
+  }
+  .seconed-header {
+    display: none !important;
+  }
+  .main {
+    display: none !important;
+  }
+  .currencies {
+    grid-template-rows: 395px !important;
+  }
+  .fs-floki-7 {
+    font-size: 7px !important;
+  }
+  .fs-floki-71 {
+    font-size: 4px !important;
+  }
+  .fs-pepe-7 {
+    font-size: 7px !important;
+  }
+  .fs-pepe-71 {
+    font-size: 4px !important;
+  }
+  .fs-ldo {
+    font-size: 7px !important;
+  }
+  .fs-ldo-1 {
+    font-size: 3px !important;
+  }
+  .fs-rune {
+    font-size: 7px !important;
+  }
+  .fs-aave {
+    font-size: 7px !important;
+  }
+  .fs-aave-1 {
+    font-size: 4px !important;
+  }
+  .fs-rune-1 {
+    font-size: 3px !important;
+  }
+  .fs-rune-2 {
+    font-size: 2px !important;
+  }
+  .fs-grt {
+    font-size: 10px !important;
+  }
+  .fs-grt-1 {
+    font-size: 3px !important;
+  }
+  .fs-inj-7 {
+    font-size: 10px !important;
+  }
+  .fs-inj-71 {
+    font-size: 4px !important;
+  }
+  .fs-rndr {
+    font-size: 12px !important;
+  }
+  .fs-theta {
+    font-size: 10px !important;
+  }
+  .fs-fdusd {
+    font-size: 12px !important;
+  }
+  .fs-btc {
+    font-size: 180px !important;
+  }
+  .fs-btc-1 {
+    font-size: 70px !important;
+  }
+  .last-containers {
+    display: grid;
+    width: 100%;
+    height: auto;
+    grid-template-columns: 90% 90% !important;
+    grid-template-rows: 50% 50% !important;
+    grid-template-areas: 'container-5'
+                        'container-7' !important;
+    margin-left: 8px;
+    z-index: 1000;
+  }
+  .container-5 {
+    display: grid;
+    height: auto !important;
+  }
+  .container-6 {
+    display: none !important;
+  }
+  .container-7 {
+    display: grid;
+    grid-template-areas: 'link link link link link link uni uni uni rndr rndr rndr rndr rndr'
+                         'link link link link link link uni uni uni rndr rndr rndr rndr rndr'
+                         'link link link link link link uni uni uni rndr rndr rndr rndr rndr'
+                         'link link link link link link uni uni uni theta theta fet fet fet'
+                         'link link link link link link uni uni uni theta theta fet fet fet'
+                         'link link link link link link uni uni uni theta theta sand x x'
+                         'link link link link link link uni uni uni theta theta sand y yz'
+                         'stx stx stx stx stx grt grt grt inj inj inj fdusd fdusd doge'
+                         'stx stx stx stx stx grt grt grt inj inj inj fdusd fdusd doge'
+                         'stx stx stx stx stx rune rune ldo ldo aave aave fdusd fdusd doge'
+                         'mkr mkr mkr mkr mkr rune rune ldo ldo aave aave fdusd fdusd shib'
+                         'mkr mkr mkr mkr mkr rune rune ldo ldo ys yd fdusd fdusd shib'
+                         'mkr mkr mkr mkr mkr floki floki pepe pepe ys yo fdusd fdusd shib' !important;
+    margin-top: 12px !important;
+    height: auto !important;
+  }
+  .doge-7 {
+    grid-area: doge;
+  }
+  .fs-doge-7 {
+    font-size: 10px !important;
+  }
+  .fs-shib-7 {
+    font-size: 10px !important;
+  }
+  .shib-7 {
+    grid-area: shib;
+  }
+  .pepe-7 {
+    grid-area: pepe;
+  }
+  .floki-7 {
+    grid-area: floki;
+  }
+  .fs-eth {
+    font-size: 110px !important;
+  }
+  .fs-eth-1 {
+    font-size: 38px !important;
+  }
+  .fs-eth-2 {
+    font-size: 20px !important;
+  }
+  .fs-btc {
+    font-size: 180px !important;
+  }
+  .fs-btc-1 {
+    font-size: 56px !important;
+  }
+  .fs-btc-2 {
+    font-size: 32px !important;
+  }
+  .fs-btc-3 {
+    font-size: 18px !important;
+  }
+}
+/* 403 */
+@media (min-height: 450px) and (max-height: 459px) {
+  .top-header {
+    display: none !important;
+  }
+  .seconed-header {
+    display: none !important;
+  }
+  .main {
+    display: none !important;
+  }
+  .currencies {
+    grid-template-rows: 403px !important;
+  }
+  .last-containers {
+    display: grid;
+    width: 100%;
+    height: auto;
+    grid-template-columns: 90% 90% !important;
+    grid-template-rows: 50% 50% !important;
+    grid-template-areas: 'container-5'
+                        'container-7' !important;
+    margin-left: 8px;
+    z-index: 1000;
+  }
+  .container-5 {
+    display: grid;
+    height: auto !important;
+  }
+  .container-6 {
+    display: none !important;
+  }
+  .container-7 {
+    display: grid;
+    grid-template-areas: 'link link link link link link uni uni uni rndr rndr rndr rndr rndr'
+                         'link link link link link link uni uni uni rndr rndr rndr rndr rndr'
+                         'link link link link link link uni uni uni rndr rndr rndr rndr rndr'
+                         'link link link link link link uni uni uni theta theta fet fet fet'
+                         'link link link link link link uni uni uni theta theta fet fet fet'
+                         'link link link link link link uni uni uni theta theta sand x x'
+                         'link link link link link link uni uni uni theta theta sand y yz'
+                         'stx stx stx stx stx grt grt grt inj inj inj fdusd fdusd doge'
+                         'stx stx stx stx stx grt grt grt inj inj inj fdusd fdusd doge'
+                         'stx stx stx stx stx rune rune ldo ldo aave aave fdusd fdusd doge'
+                         'mkr mkr mkr mkr mkr rune rune ldo ldo aave aave fdusd fdusd shib'
+                         'mkr mkr mkr mkr mkr rune rune ldo ldo ys yd fdusd fdusd shib'
+                         'mkr mkr mkr mkr mkr floki floki pepe pepe ys yo fdusd fdusd shib' !important;
+    margin-top: 12px !important;
+    height: auto !important;
+  }
+  .fs-floki-7 {
+    font-size: 7px !important;
+  }
+  .fs-floki-71 {
+    font-size: 4px !important;
+  }
+  .fs-pepe-7 {
+    font-size: 7px !important;
+  }
+  .fs-pepe-71 {
+    font-size: 4px !important;
+  }
+  .fs-ldo {
+    font-size: 7px !important;
+  }
+  .fs-ldo-1 {
+    font-size: 3px !important;
+  }
+  .fs-rune {
+    font-size: 7px !important;
+  }
+  .fs-aave {
+    font-size: 7px !important;
+  }
+  .fs-aave-1 {
+    font-size: 4px !important;
+  }
+  .fs-rune-1 {
+    font-size: 3px !important;
+  }
+  .fs-rune-2 {
+    font-size: 2px !important;
+  }
+  .fs-grt {
+    font-size: 10px !important;
+  }
+  .fs-grt-1 {
+    font-size: 3px !important;
+  }
+  .fs-inj-7 {
+    font-size: 10px !important;
+  }
+  .fs-inj-71 {
+    font-size: 4px !important;
+  }
+  .fs-rndr {
+    font-size: 12px !important;
+  }
+  .fs-theta {
+    font-size: 10px !important;
+  }
+  .fs-fdusd {
+    font-size: 12px !important;
+  }
+  .doge-7 {
+    grid-area: doge;
+  }
+  .fs-doge-7 {
+    font-size: 10px !important;
+  }
+  .fs-shib-7 {
+    font-size: 10px !important;
+  }
+  .shib-7 {
+    grid-area: shib;
+  }
+  .pepe-7 {
+    grid-area: pepe;
+  }
+  .floki-7 {
+    grid-area: floki;
+  }
+  .fs-btc {
+    font-size: 190px !important;
+  }
+  .fs-btc-1 {
+    font-size: 62px !important;
+  }
+  .fs-btc-2 {
+    font-size: 35px !important;
+  }
+  .fs-btc-3 {
+    font-size: 20px !important;
+  }
+}
+/* 413 */
+@media (min-height: 460px) and (max-height: 469px) {
+  .top-header {
+    display: none !important;
+  }
+  .seconed-header {
+    display: none !important;
+  }
+  .main {
+    display: none !important;
+  }
+  .currencies {
+    grid-template-rows: 413px !important;
+  }
+  .last-containers {
+    display: grid;
+    width: 100%;
+    height: auto;
+    grid-template-columns: 90% 90% !important;
+    grid-template-rows: 50% 50% !important;
+    grid-template-areas: 'container-5'
+                        'container-7' !important;
+    margin-left: 8px;
+    z-index: 1000;
+  }
+  .container-5 {
+    display: grid;
+    height: auto !important;
+  }
+  .container-6 {
+    display: none !important;
+  }
+  .container-7 {
+    display: grid;
+    grid-template-areas: 'link link link link link link uni uni uni rndr rndr rndr rndr rndr'
+                         'link link link link link link uni uni uni rndr rndr rndr rndr rndr'
+                         'link link link link link link uni uni uni rndr rndr rndr rndr rndr'
+                         'link link link link link link uni uni uni theta theta fet fet fet'
+                         'link link link link link link uni uni uni theta theta fet fet fet'
+                         'link link link link link link uni uni uni theta theta sand x x'
+                         'link link link link link link uni uni uni theta theta sand y yz'
+                         'stx stx stx stx stx grt grt grt inj inj inj fdusd fdusd doge'
+                         'stx stx stx stx stx grt grt grt inj inj inj fdusd fdusd doge'
+                         'stx stx stx stx stx rune rune ldo ldo aave aave fdusd fdusd doge'
+                         'mkr mkr mkr mkr mkr rune rune ldo ldo aave aave fdusd fdusd shib'
+                         'mkr mkr mkr mkr mkr rune rune ldo ldo ys yd fdusd fdusd shib'
+                         'mkr mkr mkr mkr mkr floki floki pepe pepe ys yo fdusd fdusd shib' !important;
+    margin-top: 8px !important;
+    height: auto !important;
+  }
+  .fs-floki-7 {
+    font-size: 7px !important;
+  }
+  .fs-floki-71 {
+    font-size: 4px !important;
+  }
+  .fs-pepe-7 {
+    font-size: 7px !important;
+  }
+  .fs-pepe-71 {
+    font-size: 4px !important;
+  }
+  .fs-ldo {
+    font-size: 7px !important;
+  }
+  .fs-ldo-1 {
+    font-size: 3px !important;
+  }
+  .fs-rune {
+    font-size: 7px !important;
+  }
+  .fs-aave {
+    font-size: 7px !important;
+  }
+  .fs-aave-1 {
+    font-size: 4px !important;
+  }
+  .fs-rune-1 {
+    font-size: 3px !important;
+  }
+  .fs-rune-2 {
+    font-size: 2px !important;
+  }
+  .fs-grt {
+    font-size: 10px !important;
+  }
+  .fs-grt-1 {
+    font-size: 3px !important;
+  }
+  .fs-inj-7 {
+    font-size: 10px !important;
+  }
+  .fs-inj-71 {
+    font-size: 4px !important;
+  }
+  .fs-rndr {
+    font-size: 12px !important;
+  }
+  .fs-theta {
+    font-size: 10px !important;
+  }
+  .fs-fdusd {
+    font-size: 12px !important;
+  }
+  .doge-7 {
+    grid-area: doge;
+  }
+  .fs-doge-7 {
+    font-size: 10px !important;
+  }
+  .fs-shib-7 {
+    font-size: 10px !important;
+  }
+  .shib-7 {
+    grid-area: shib;
+  }
+  .pepe-7 {
+    grid-area: pepe;
+  }
+  .floki-7 {
+    grid-area: floki;
+  }
+  .fs-btc {
+    font-size: 190px !important;
+  }
+  .fs-btc {
+    font-size: 190px !important;
+  }
+  .fs-btc-1 {
+    font-size: 62px !important;
+  }
+  .fs-btc-2 {
+    font-size: 35px !important;
+  }
+  .fs-btc-3 {
+    font-size: 20px !important;
+  }
+}
+/* 423 */
+@media (min-height: 470px) and (max-height: 479px) {
+  .top-header {
+    display: none !important;
+  }
+  .seconed-header {
+    display: none !important;
+  }
+  .main {
+    display: none !important;
+  }
+  .currencies {
+    grid-template-rows: 423px !important;
+  }
+  .last-containers {
+    display: grid;
+    width: 100%;
+    height: auto;
+    grid-template-columns: 90% 90% !important;
+    grid-template-rows: 50% 50% !important;
+    grid-template-areas: 'container-5'
+                        'container-7' !important;
+    margin-left: 8px;
+    z-index: 1000;
+  }
+  .container-5 {
+    display: grid;
+    height: auto !important;
+  }
+  .container-6 {
+    display: none !important;
+  }
+  .container-7 {
+    display: grid;
+    grid-template-areas: 'link link link link link link uni uni uni rndr rndr rndr rndr rndr'
+                         'link link link link link link uni uni uni rndr rndr rndr rndr rndr'
+                         'link link link link link link uni uni uni rndr rndr rndr rndr rndr'
+                         'link link link link link link uni uni uni theta theta fet fet fet'
+                         'link link link link link link uni uni uni theta theta fet fet fet'
+                         'link link link link link link uni uni uni theta theta sand x x'
+                         'link link link link link link uni uni uni theta theta sand y yz'
+                         'stx stx stx stx stx grt grt grt inj inj inj fdusd fdusd doge'
+                         'stx stx stx stx stx grt grt grt inj inj inj fdusd fdusd doge'
+                         'stx stx stx stx stx rune rune ldo ldo aave aave fdusd fdusd doge'
+                         'mkr mkr mkr mkr mkr rune rune ldo ldo aave aave fdusd fdusd shib'
+                         'mkr mkr mkr mkr mkr rune rune ldo ldo ys yd fdusd fdusd shib'
+                         'mkr mkr mkr mkr mkr floki floki pepe pepe ys yo fdusd fdusd shib' !important;
+    margin-top: 8px !important;
+    height: auto !important;
+  }
+  .doge-7 {
+    grid-area: doge;
+  }
+  .fs-doge-7 {
+    font-size: 10px !important;
+  }
+  .fs-shib-7 {
+    font-size: 10px !important;
+  }
+  .shib-7 {
+    grid-area: shib;
+  }
+  .pepe-7 {
+    grid-area: pepe;
+  }
+  .floki-7 {
+    grid-area: floki;
+  }
+  .fs-btc {
+    font-size: 195px !important;
+  }
+  .fs-btc-1 {
+    font-size: 64px !important;
+  }
+  .fs-btc-2 {
+    font-size: 45px !important;
+  }
+  .fs-btc-3 {
+    font-size: 20px !important;
+  }
+}
+/* 433 */
+@media (min-height: 480px) and (max-height: 489px) {
+  .top-header {
+    display: none !important;
+  }
+  .seconed-header {
+    display: none !important;
+  }
+  .main {
+    display: none !important;
+  }
+  .currencies {
+    grid-template-rows: 433px !important;
+  }
+  .last-containers {
+    display: grid;
+    width: 100%;
+    height: auto;
+    grid-template-columns: 90% 90% !important;
+    grid-template-rows: 50% 50% !important;
+    grid-template-areas: 'container-5'
+                        'container-7' !important;
+    margin-left: 8px;
+    z-index: 1000;
+  }
+  .container-5 {
+    display: grid;
+    height: auto !important;
+  }
+  .container-6 {
+    display: none !important;
+  }
+  .container-7 {
+    display: grid;
+    grid-template-areas: 'link link link link link link uni uni uni rndr rndr rndr rndr rndr'
+                         'link link link link link link uni uni uni rndr rndr rndr rndr rndr'
+                         'link link link link link link uni uni uni rndr rndr rndr rndr rndr'
+                         'link link link link link link uni uni uni theta theta fet fet fet'
+                         'link link link link link link uni uni uni theta theta fet fet fet'
+                         'link link link link link link uni uni uni theta theta sand x x'
+                         'link link link link link link uni uni uni theta theta sand y yz'
+                         'stx stx stx stx stx grt grt grt inj inj inj fdusd fdusd doge'
+                         'stx stx stx stx stx grt grt grt inj inj inj fdusd fdusd doge'
+                         'stx stx stx stx stx rune rune ldo ldo aave aave fdusd fdusd doge'
+                         'mkr mkr mkr mkr mkr rune rune ldo ldo aave aave fdusd fdusd shib'
+                         'mkr mkr mkr mkr mkr rune rune ldo ldo ys yd fdusd fdusd shib'
+                         'mkr mkr mkr mkr mkr floki floki pepe pepe ys yo fdusd fdusd shib' !important;
+    margin-top: 8px !important;
+    height: auto !important;
+  }
+  .doge-7 {
+    grid-area: doge;
+  }
+  .fs-doge-7 {
+    font-size: 10px !important;
+  }
+  .fs-shib-7 {
+    font-size: 10px !important;
+  }
+  .shib-7 {
+    grid-area: shib;
+  }
+  .pepe-7 {
+    grid-area: pepe;
+  }
+  .floki-7 {
+    grid-area: floki;
+  }
+  .fs-btc {
+    font-size: 200px !important;
+  }
+  .fs-btc-1 {
+    font-size: 62px !important;
+  }
+  .fs-btc-2 {
+    font-size: 35px !important;
+  }
+  .fs-btc-3 {
+    font-size: 20px !important;
+  }
+}
+/* 443 */
+@media (min-height: 490px) and (max-height: 499px) {
+  .top-header {
+    display: none !important;
+  }
+  .seconed-header {
+    display: none !important;
+  }
+  .main {
+    display: none !important;
+  }
+  .currencies {
+    grid-template-rows: 443px !important;
+  }
+  .last-containers {
+    display: grid;
+    width: 100%;
+    height: auto;
+    grid-template-columns: 90% 90% !important;
+    grid-template-rows: 50% 50% !important;
+    grid-template-areas: 'container-5'
+                        'container-7' !important;
+    margin-left: 8px;
+    z-index: 1000;
+  }
+  .container-5 {
+    display: grid;
+    height: auto !important;
+  }
+  .container-6 {
+    display: none !important;
+  }
+  .container-7 {
+    display: grid;
+    grid-template-areas: 'link link link link link link uni uni uni rndr rndr rndr rndr rndr'
+                         'link link link link link link uni uni uni rndr rndr rndr rndr rndr'
+                         'link link link link link link uni uni uni rndr rndr rndr rndr rndr'
+                         'link link link link link link uni uni uni theta theta fet fet fet'
+                         'link link link link link link uni uni uni theta theta fet fet fet'
+                         'link link link link link link uni uni uni theta theta sand x x'
+                         'link link link link link link uni uni uni theta theta sand y yz'
+                         'stx stx stx stx stx grt grt grt inj inj inj fdusd fdusd doge'
+                         'stx stx stx stx stx grt grt grt inj inj inj fdusd fdusd doge'
+                         'stx stx stx stx stx rune rune ldo ldo aave aave fdusd fdusd doge'
+                         'mkr mkr mkr mkr mkr rune rune ldo ldo aave aave fdusd fdusd shib'
+                         'mkr mkr mkr mkr mkr rune rune ldo ldo ys yd fdusd fdusd shib'
+                         'mkr mkr mkr mkr mkr floki floki pepe pepe ys yo fdusd fdusd shib' !important;
+    margin-top: 8px !important;
+    height: auto !important;
+  }
+  .doge-7 {
+    grid-area: doge;
+  }
+  .fs-doge-7 {
+    font-size: 10px !important;
+  }
+  .fs-shib-7 {
+    font-size: 10px !important;
+  }
+  .shib-7 {
+    grid-area: shib;
+  }
+  .pepe-7 {
+    grid-area: pepe;
+  }
+  .floki-7 {
+    grid-area: floki;
+  }
+  .fs-btc {
+    font-size: 205px !important;
+  }
+  .fs-btc-1 {
+    font-size: 62px !important;
+  }
+  .fs-btc-2 {
+    font-size: 40px !important;
+  }
+}
+/* 453 */
+@media (min-height: 500px) and (max-height: 509px) {
+  .top-header {
+    display: none !important;
+  }
+  .seconed-header {
+    display: none !important;
+  }
+  .main {
+    display: none !important;
+  }
+  .currencies {
+    grid-template-rows: 453px !important;
+  }
+  .last-containers {
+    display: grid;
+    width: 100%;
+    height: auto;
+    grid-template-columns: 90% 90% !important;
+    grid-template-rows: 50% 50% !important;
+    grid-template-areas: 'container-5'
+                        'container-7' !important;
+    margin-left: 8px;
+    z-index: 1000;
+  }
+  .container-5 {
+    display: grid;
+    height: auto !important;
+  }
+  .container-6 {
+    display: none !important;
+  }
+  .container-7 {
+    display: grid;
+    grid-template-areas: 'link link link link link link uni uni uni rndr rndr rndr rndr rndr'
+                         'link link link link link link uni uni uni rndr rndr rndr rndr rndr'
+                         'link link link link link link uni uni uni rndr rndr rndr rndr rndr'
+                         'link link link link link link uni uni uni theta theta fet fet fet'
+                         'link link link link link link uni uni uni theta theta fet fet fet'
+                         'link link link link link link uni uni uni theta theta sand x x'
+                         'link link link link link link uni uni uni theta theta sand y yz'
+                         'stx stx stx stx stx grt grt grt inj inj inj fdusd fdusd doge'
+                         'stx stx stx stx stx grt grt grt inj inj inj fdusd fdusd doge'
+                         'stx stx stx stx stx rune rune ldo ldo aave aave fdusd fdusd doge'
+                         'mkr mkr mkr mkr mkr rune rune ldo ldo aave aave fdusd fdusd shib'
+                         'mkr mkr mkr mkr mkr rune rune ldo ldo ys yd fdusd fdusd shib'
+                         'mkr mkr mkr mkr mkr floki floki pepe pepe ys yo fdusd fdusd shib' !important;
+    margin-top: 8px !important;
+    height: auto !important;
+  }
+  .doge-7 {
+    grid-area: doge;
+  }
+  .fs-doge-7 {
+    font-size: 10px !important;
+  }
+  .fs-shib-7 {
+    font-size: 10px !important;
+  }
+  .shib-7 {
+    grid-area: shib;
+  }
+  .pepe-7 {
+    grid-area: pepe;
+  }
+  .floki-7 {
+    grid-area: floki;
+  }
+  .fs-btc {
+    font-size: 205px !important;
+  }
+  .fs-btc-1 {
+    font-size: 64px !important;
+  }
+  .fs-btc-2 {
+    font-size: 45px !important;
+  }
+}
+/* 463 */
+@media (min-height: 510px) and (max-height: 519px) {
+  .top-header {
+    display: none !important;
+  }
+  .seconed-header {
+    display: none !important;
+  }
+  .main {
+    display: none !important;
+  }
+  .currencies {
+    grid-template-rows: 463px !important;
+  }
+  .last-containers {
+    display: grid;
+    width: 100%;
+    height: auto;
+    grid-template-columns: 90% 90% !important;
+    grid-template-rows: 50% 50% !important;
+    grid-template-areas: 'container-5'
+                        'container-7' !important;
+    margin-left: 8px;
+    z-index: 1000;
+  }
+  .container-5 {
+    display: grid;
+    height: auto !important;
+  }
+  .container-6 {
+    display: none !important;
+  }
+  .container-7 {
+    display: grid;
+    grid-template-areas: 'link link link link link link uni uni uni rndr rndr rndr rndr rndr'
+                         'link link link link link link uni uni uni rndr rndr rndr rndr rndr'
+                         'link link link link link link uni uni uni rndr rndr rndr rndr rndr'
+                         'link link link link link link uni uni uni theta theta fet fet fet'
+                         'link link link link link link uni uni uni theta theta fet fet fet'
+                         'link link link link link link uni uni uni theta theta sand x x'
+                         'link link link link link link uni uni uni theta theta sand y yz'
+                         'stx stx stx stx stx grt grt grt inj inj inj fdusd fdusd doge'
+                         'stx stx stx stx stx grt grt grt inj inj inj fdusd fdusd doge'
+                         'stx stx stx stx stx rune rune ldo ldo aave aave fdusd fdusd doge'
+                         'mkr mkr mkr mkr mkr rune rune ldo ldo aave aave fdusd fdusd shib'
+                         'mkr mkr mkr mkr mkr rune rune ldo ldo ys yd fdusd fdusd shib'
+                         'mkr mkr mkr mkr mkr floki floki pepe pepe ys yo fdusd fdusd shib' !important;
+    margin-top: 8px !important;
+    height: auto !important;
+  }
+  .doge-7 {
+    grid-area: doge;
+  }
+  .fs-doge-7 {
+    font-size: 10px !important;
+  }
+  .fs-shib-7 {
+    font-size: 10px !important;
+  }
+  .shib-7 {
+    grid-area: shib;
+  }
+  .pepe-7 {
+    grid-area: pepe;
+  }
+  .floki-7 {
+    grid-area: floki;
+  }
+  .fs-btc {
+    font-size: 205px !important;
+  }
+  .fs-btc-1 {
+    font-size: 64px !important;
+  }
+  .fs-btc-2 {
+    font-size: 45px !important;
+  }
+}
+/* 473 */
+@media (min-height: 520px) and (max-height: 529px) {
+  .top-header {
+    display: none !important;
+  }
+  .seconed-header {
+    display: none !important;
+  }
+  .main {
+    display: none !important;
+  }
+  .currencies {
+    grid-template-rows: 473px !important;
+  }
+  .last-containers {
+    display: grid;
+    width: 100%;
+    height: auto;
+    grid-template-columns: 90% 90% !important;
+    grid-template-rows: 50% 50% !important;
+    grid-template-areas: 'container-5'
+                        'container-7' !important;
+    margin-left: 8px;
+    z-index: 1000;
+  }
+  .container-5 {
+    display: grid;
+    height: auto !important;
+  }
+  .container-6 {
+    display: none !important;
+  }
+  .container-7 {
+    display: grid;
+    grid-template-areas: 'link link link link link link uni uni uni rndr rndr rndr rndr rndr'
+                         'link link link link link link uni uni uni rndr rndr rndr rndr rndr'
+                         'link link link link link link uni uni uni rndr rndr rndr rndr rndr'
+                         'link link link link link link uni uni uni theta theta fet fet fet'
+                         'link link link link link link uni uni uni theta theta fet fet fet'
+                         'link link link link link link uni uni uni theta theta sand x x'
+                         'link link link link link link uni uni uni theta theta sand y yz'
+                         'stx stx stx stx stx grt grt grt inj inj inj fdusd fdusd doge'
+                         'stx stx stx stx stx grt grt grt inj inj inj fdusd fdusd doge'
+                         'stx stx stx stx stx rune rune ldo ldo aave aave fdusd fdusd doge'
+                         'mkr mkr mkr mkr mkr rune rune ldo ldo aave aave fdusd fdusd shib'
+                         'mkr mkr mkr mkr mkr rune rune ldo ldo ys yd fdusd fdusd shib'
+                         'mkr mkr mkr mkr mkr floki floki pepe pepe ys yo fdusd fdusd shib' !important;
+    margin-top: 8px !important;
+    height: auto !important;
+  }
+  .doge-7 {
+    grid-area: doge;
+  }
+  .fs-doge-7 {
+    font-size: 10px !important;
+  }
+  .fs-shib-7 {
+    font-size: 10px !important;
+  }
+  .shib-7 {
+    grid-area: shib;
+  }
+  .pepe-7 {
+    grid-area: pepe;
+  }
+  .floki-7 {
+    grid-area: floki;
+  }
+  .fs-btc {
+    font-size: 205px !important;
+  }
+  .fs-btc-1 {
+    font-size: 64px !important;
+  }
+  .fs-btc-2 {
+    font-size: 45px !important;
+  }
+}
+/* 483 */
+@media (min-height: 530px) and (max-height: 539px) {
+  .top-header {
+    display: none !important;
+  }
+  .seconed-header {
+    display: none !important;
+  }
+  .main {
+    display: none !important;
+  }
+  .currencies {
+    grid-template-rows: 483px !important;
+  }
+  .last-containers {
+    display: grid;
+    width: 100%;
+    height: auto;
+    grid-template-columns: 90% 90% !important;
+    grid-template-rows: 50% 50% !important;
+    grid-template-areas: 'container-5'
+                        'container-7' !important;
+    margin-left: 8px;
+    z-index: 1000;
+  }
+  .container-5 {
+    display: grid;
+    height: auto !important;
+  }
+  .container-6 {
+    display: none !important;
+  }
+  .container-7 {
+    display: grid;
+    grid-template-areas: 'link link link link link link uni uni uni rndr rndr rndr rndr rndr'
+                         'link link link link link link uni uni uni rndr rndr rndr rndr rndr'
+                         'link link link link link link uni uni uni rndr rndr rndr rndr rndr'
+                         'link link link link link link uni uni uni theta theta fet fet fet'
+                         'link link link link link link uni uni uni theta theta fet fet fet'
+                         'link link link link link link uni uni uni theta theta sand x x'
+                         'link link link link link link uni uni uni theta theta sand y yz'
+                         'stx stx stx stx stx grt grt grt inj inj inj fdusd fdusd doge'
+                         'stx stx stx stx stx grt grt grt inj inj inj fdusd fdusd doge'
+                         'stx stx stx stx stx rune rune ldo ldo aave aave fdusd fdusd doge'
+                         'mkr mkr mkr mkr mkr rune rune ldo ldo aave aave fdusd fdusd shib'
+                         'mkr mkr mkr mkr mkr rune rune ldo ldo ys yd fdusd fdusd shib'
+                         'mkr mkr mkr mkr mkr floki floki pepe pepe ys yo fdusd fdusd shib' !important;
+    margin-top: 10px !important;
+    height: auto !important;
+  }
+  .doge-7 {
+    grid-area: doge;
+  }
+  .fs-doge-7 {
+    font-size: 10px !important;
+  }
+  .fs-shib-7 {
+    font-size: 10px !important;
+  }
+  .shib-7 {
+    grid-area: shib;
+  }
+  .pepe-7 {
+    grid-area: pepe;
+  }
+  .floki-7 {
+    grid-area: floki;
+  }
+  .fs-btc {
+    font-size: 205px !important;
+  }
+  .fs-btc-1 {
+    font-size: 64px !important;
+  }
+  .fs-btc-2 {
+    font-size: 45px !important;
+  }
+}
+/* 495 */
+@media (min-height: 540px) and (max-height: 549px) {
+  .top-header {
+    display: none !important;
+  }
+  .seconed-header {
+    display: none !important;
+  }
+  .main {
+    display: none !important;
+  }
+  .currencies {
+    grid-template-rows: 495px !important;
+  }
+  .last-containers {
+    display: grid;
+    width: 100%;
+    height: auto;
+    grid-template-columns: 90% 90% !important;
+    grid-template-rows: 50% 50% !important;
+    grid-template-areas: 'container-5'
+                        'container-7' !important;
+    margin-left: 8px;
+    z-index: 1000;
+  }
+  .container-5 {
+    display: grid;
+    height: auto !important;
+  }
+  .container-6 {
+    display: none !important;
+  }
+  .container-7 {
+    display: grid;
+    grid-template-areas: 'link link link link link link uni uni uni rndr rndr rndr rndr rndr'
+                         'link link link link link link uni uni uni rndr rndr rndr rndr rndr'
+                         'link link link link link link uni uni uni rndr rndr rndr rndr rndr'
+                         'link link link link link link uni uni uni theta theta fet fet fet'
+                         'link link link link link link uni uni uni theta theta fet fet fet'
+                         'link link link link link link uni uni uni theta theta sand x x'
+                         'link link link link link link uni uni uni theta theta sand y yz'
+                         'stx stx stx stx stx grt grt grt inj inj inj fdusd fdusd doge'
+                         'stx stx stx stx stx grt grt grt inj inj inj fdusd fdusd doge'
+                         'stx stx stx stx stx rune rune ldo ldo aave aave fdusd fdusd doge'
+                         'mkr mkr mkr mkr mkr rune rune ldo ldo aave aave fdusd fdusd shib'
+                         'mkr mkr mkr mkr mkr rune rune ldo ldo ys yd fdusd fdusd shib'
+                         'mkr mkr mkr mkr mkr floki floki pepe pepe ys yo fdusd fdusd shib' !important;
+    margin-top: 10px !important;
+    height: auto !important;
+  }
+  .doge-7 {
+    grid-area: doge;
+  }
+  .fs-doge-7 {
+    font-size: 10px !important;
+  }
+  .fs-shib-7 {
+    font-size: 10px !important;
+  }
+  .shib-7 {
+    grid-area: shib;
+  }
+  .pepe-7 {
+    grid-area: pepe;
+  }
+  .floki-7 {
+    grid-area: floki;
+  }
+  .fs-btc {
+    font-size: 205px !important;
+  }
+  .fs-btc-1 {
+    font-size: 64px !important;
+  }
+  .fs-btc-2 {
+    font-size: 45px !important;
+  }
+}
+/* 505 */
+@media (min-height: 550px) and (max-height: 559px) {
+  .top-header {
+    display: none !important;
+  }
+  .seconed-header {
+    display: none !important;
+  }
+  .main {
+    display: none !important;
+  }
+  .currencies {
+    grid-template-rows: 505px !important;
+  }
+  .last-containers {
+    display: grid;
+    width: 100%;
+    height: auto;
+    grid-template-columns: 90% 90% !important;
+    grid-template-rows: 50% 50% !important;
+    grid-template-areas: 'container-5'
+                        'container-7' !important;
+    margin-left: 8px;
+    z-index: 1000;
+  }
+  .container-5 {
+    display: grid;
+    height: auto !important;
+  }
+  .container-6 {
+    display: none !important;
+  }
+  .container-7 {
+    display: grid;
+    grid-template-areas: 'link link link link link link uni uni uni rndr rndr rndr rndr rndr'
+                         'link link link link link link uni uni uni rndr rndr rndr rndr rndr'
+                         'link link link link link link uni uni uni rndr rndr rndr rndr rndr'
+                         'link link link link link link uni uni uni theta theta fet fet fet'
+                         'link link link link link link uni uni uni theta theta fet fet fet'
+                         'link link link link link link uni uni uni theta theta sand x x'
+                         'link link link link link link uni uni uni theta theta sand y yz'
+                         'stx stx stx stx stx grt grt grt inj inj inj fdusd fdusd doge'
+                         'stx stx stx stx stx grt grt grt inj inj inj fdusd fdusd doge'
+                         'stx stx stx stx stx rune rune ldo ldo aave aave fdusd fdusd doge'
+                         'mkr mkr mkr mkr mkr rune rune ldo ldo aave aave fdusd fdusd shib'
+                         'mkr mkr mkr mkr mkr rune rune ldo ldo ys yd fdusd fdusd shib'
+                         'mkr mkr mkr mkr mkr floki floki pepe pepe ys yo fdusd fdusd shib' !important;
+    margin-top: 10px !important;
+    height: auto !important;
+  }
+  .doge-7 {
+    grid-area: doge;
+  }
+  .fs-doge-7 {
+    font-size: 10px !important;
+  }
+  .fs-shib-7 {
+    font-size: 10px !important;
+  }
+  .shib-7 {
+    grid-area: shib;
+  }
+  .pepe-7 {
+    grid-area: pepe;
+  }
+  .floki-7 {
+    grid-area: floki;
+  }
+  .fs-btc {
+    font-size: 205px !important;
+  }
+  .fs-btc-1 {
+    font-size: 64px !important;
+  }
+  .fs-btc-2 {
+    font-size: 45px !important;
+  }
+}
+/* 514 */
+@media (min-height: 560px) and (max-height: 569px) {
+  .top-header {
+    display: none !important;
+  }
+  .seconed-header {
+    display: none !important;
+  }
+  .main {
+    display: none !important;
+  }
+  .currencies {
+    grid-template-rows: 514px !important;
+  }
+  .last-containers {
+    display: grid;
+    width: 100%;
+    height: auto;
+    grid-template-columns: 90% 90% !important;
+    grid-template-rows: 50% 50% !important;
+    grid-template-areas: 'container-5'
+                        'container-7' !important;
+    margin-left: 8px;
+    z-index: 1000;
+  }
+  .container-5 {
+    display: grid;
+    height: auto !important;
+  }
+  .container-6 {
+    display: none !important;
+  }
+  .container-7 {
+    display: grid;
+    grid-template-areas: 'link link link link link link uni uni uni rndr rndr rndr rndr rndr'
+                         'link link link link link link uni uni uni rndr rndr rndr rndr rndr'
+                         'link link link link link link uni uni uni rndr rndr rndr rndr rndr'
+                         'link link link link link link uni uni uni theta theta fet fet fet'
+                         'link link link link link link uni uni uni theta theta fet fet fet'
+                         'link link link link link link uni uni uni theta theta sand x x'
+                         'link link link link link link uni uni uni theta theta sand y yz'
+                         'stx stx stx stx stx grt grt grt inj inj inj fdusd fdusd doge'
+                         'stx stx stx stx stx grt grt grt inj inj inj fdusd fdusd doge'
+                         'stx stx stx stx stx rune rune ldo ldo aave aave fdusd fdusd doge'
+                         'mkr mkr mkr mkr mkr rune rune ldo ldo aave aave fdusd fdusd shib'
+                         'mkr mkr mkr mkr mkr rune rune ldo ldo ys yd fdusd fdusd shib'
+                         'mkr mkr mkr mkr mkr floki floki pepe pepe ys yo fdusd fdusd shib' !important;
+    margin-top: 10px !important;
+    height: auto !important;
+  }
+  .doge-7 {
+    grid-area: doge;
+  }
+  .fs-doge-7 {
+    font-size: 10px !important;
+  }
+  .fs-shib-7 {
+    font-size: 10px !important;
+  }
+  .shib-7 {
+    grid-area: shib;
+  }
+  .pepe-7 {
+    grid-area: pepe;
+  }
+  .floki-7 {
+    grid-area: floki;
+  }
+  .fs-btc {
+    font-size: 205px !important;
+  }
+  .fs-btc-1 {
+    font-size: 64px !important;
+  }
+  .fs-btc-2 {
+    font-size: 45px !important;
+  }
+}
+/* 522 */
+@media (min-height: 570px) and (max-height: 579px) {
+  .top-header {
+    display: none !important;
+  }
+  .seconed-header {
+    display: none !important;
+  }
+  .main {
+    display: none !important;
+  }
+  .currencies {
+    grid-template-rows: 522px !important;
+  }
+  .last-containers {
+    display: grid;
+    width: 100%;
+    height: auto;
+    grid-template-columns: 90% 90% !important;
+    grid-template-rows: 50% 50% !important;
+    grid-template-areas: 'container-5'
+                        'container-7' !important;
+    margin-left: 8px;
+    z-index: 1000;
+  }
+  .container-5 {
+    display: grid;
+    height: auto !important;
+  }
+  .container-6 {
+    display: none !important;
+  }
+  .container-7 {
+    display: grid;
+    grid-template-areas: 'link link link link link link uni uni uni rndr rndr rndr rndr rndr'
+                         'link link link link link link uni uni uni rndr rndr rndr rndr rndr'
+                         'link link link link link link uni uni uni rndr rndr rndr rndr rndr'
+                         'link link link link link link uni uni uni theta theta fet fet fet'
+                         'link link link link link link uni uni uni theta theta fet fet fet'
+                         'link link link link link link uni uni uni theta theta sand x x'
+                         'link link link link link link uni uni uni theta theta sand y yz'
+                         'stx stx stx stx stx grt grt grt inj inj inj fdusd fdusd doge'
+                         'stx stx stx stx stx grt grt grt inj inj inj fdusd fdusd doge'
+                         'stx stx stx stx stx rune rune ldo ldo aave aave fdusd fdusd doge'
+                         'mkr mkr mkr mkr mkr rune rune ldo ldo aave aave fdusd fdusd shib'
+                         'mkr mkr mkr mkr mkr rune rune ldo ldo ys yd fdusd fdusd shib'
+                         'mkr mkr mkr mkr mkr floki floki pepe pepe ys yo fdusd fdusd shib' !important;
+    margin-top: 10px !important;
+    height: auto !important;
+  }
+  .doge-7 {
+    grid-area: doge;
+  }
+  .fs-doge-7 {
+    font-size: 10px !important;
+  }
+  .fs-shib-7 {
+    font-size: 10px !important;
+  }
+  .shib-7 {
+    grid-area: shib;
+  }
+  .pepe-7 {
+    grid-area: pepe;
+  }
+  .floki-7 {
+    grid-area: floki;
+  }
+  .fs-btc {
+    font-size: 205px !important;
+  }
+  .fs-btc-1 {
+    font-size: 64px !important;
+  }
+  .fs-btc-2 {
+    font-size: 45px !important;
+  }
+}
+/* 530 */
+@media (min-height: 580px) and (max-height: 587px) {
+  .top-header {
+    display: none !important;
+  }
+  .seconed-header {
+    display: none !important;
+  }
+  .main {
+    display: none !important;
+  }
+  .currencies {
+    grid-template-rows: 530px !important;
+  }
+  .last-containers {
+    display: grid;
+    width: 100%;
+    height: auto;
+    grid-template-columns: 90% 90% !important;
+    grid-template-rows: 50% 50% !important;
+    grid-template-areas: 'container-5'
+                        'container-7' !important;
+    margin-left: 8px;
+    z-index: 1000;
+  }
+  .container-5 {
+    display: grid;
+    height: auto !important;
+  }
+  .container-6 {
+    display: none !important;
+  }
+  .container-7 {
+    display: grid;
+    grid-template-areas: 'link link link link link link uni uni uni rndr rndr rndr rndr rndr'
+                         'link link link link link link uni uni uni rndr rndr rndr rndr rndr'
+                         'link link link link link link uni uni uni rndr rndr rndr rndr rndr'
+                         'link link link link link link uni uni uni theta theta fet fet fet'
+                         'link link link link link link uni uni uni theta theta fet fet fet'
+                         'link link link link link link uni uni uni theta theta sand x x'
+                         'link link link link link link uni uni uni theta theta sand y yz'
+                         'stx stx stx stx stx grt grt grt inj inj inj fdusd fdusd doge'
+                         'stx stx stx stx stx grt grt grt inj inj inj fdusd fdusd doge'
+                         'stx stx stx stx stx rune rune ldo ldo aave aave fdusd fdusd doge'
+                         'mkr mkr mkr mkr mkr rune rune ldo ldo aave aave fdusd fdusd shib'
+                         'mkr mkr mkr mkr mkr rune rune ldo ldo ys yd fdusd fdusd shib'
+                         'mkr mkr mkr mkr mkr floki floki pepe pepe ys yo fdusd fdusd shib' !important;
+    margin-top: 10px !important;
+    height: auto !important;
+  }
+  .doge-7 {
+    grid-area: doge;
+  }
+  .fs-doge-7 {
+    font-size: 10px !important;
+  }
+  .fs-shib-7 {
+    font-size: 10px !important;
+  }
+  .shib-7 {
+    grid-area: shib;
+  }
+  .pepe-7 {
+    grid-area: pepe;
+  }
+  .floki-7 {
+    grid-area: floki;
+  }
+  .fs-btc {
+    font-size: 205px !important;
+  }
+  .fs-btc-1 {
+    font-size: 64px !important;
+  }
+  .fs-btc-2 {
+    font-size: 45px !important;
+  }
+}
+/* 397 */
+@media (min-height: 588px) and (max-height: 594px) {
+  .seconed-header {
+    display: none !important;
+  }
+  .main {
+    display: none !important;
+  }
+  .currencies {
+    grid-template-rows: 440px !important;
+  }
+  .last-containers {
+    display: grid;
+    width: 100%;
+    height: auto;
+    grid-template-columns: 90% 90% !important;
+    grid-template-rows: 50% 50% !important;
+    grid-template-areas: 'container-5'
+                        'container-7' !important;
+    margin-left: 8px;
+    z-index: 1000;
+  }
+  .container-5 {
+    display: grid;
+    grid-template-rows: 40px !important;
+  }
+  .container-6 {
+    display: none !important;
+  }
+  .container-7 {
+    display: grid;
+    grid-template-areas: 'link link link link link link uni uni uni rndr rndr rndr rndr rndr'
+                         'link link link link link link uni uni uni rndr rndr rndr rndr rndr'
+                         'link link link link link link uni uni uni rndr rndr rndr rndr rndr'
+                         'link link link link link link uni uni uni theta theta fet fet fet'
+                         'link link link link link link uni uni uni theta theta fet fet fet'
+                         'link link link link link link uni uni uni theta theta sand x x'
+                         'link link link link link link uni uni uni theta theta sand y yz'
+                         'stx stx stx stx stx grt grt grt inj inj inj fdusd fdusd doge'
+                         'stx stx stx stx stx grt grt grt inj inj inj fdusd fdusd doge'
+                         'stx stx stx stx stx rune rune ldo ldo aave aave fdusd fdusd doge'
+                         'mkr mkr mkr mkr mkr rune rune ldo ldo aave aave fdusd fdusd shib'
+                         'mkr mkr mkr mkr mkr rune rune ldo ldo ys yd fdusd fdusd shib'
+                         'mkr mkr mkr mkr mkr floki floki pepe pepe ys yo fdusd fdusd shib' !important;
+    margin-top: 10px !important;
+  }
+  .doge-7 {
+    grid-area: doge;
+  }
+  .fs-doge-7 {
+    font-size: 10px !important;
+  }
+  .fs-shib-7 {
+    font-size: 10px !important;
+  }
+  .shib-7 {
+    grid-area: shib;
+  }
+  .pepe-7 {
+    grid-area: pepe;
+  }
+  .floki-7 {
+    grid-area: floki;
+  }
+  .fs-btc {
+    font-size: 205px !important;
+  }
+  .fs-btc-1 {
+    font-size: 64px !important;
+  }
+  .fs-btc-2 {
+    font-size: 45px !important;
+  }
+  .fs-eth {
+    font-size: 110px !important;
+  }
+  .fs-eth-1 {
+    font-size: 40px !important;
+  }
+}
+/* 405 */
+@media (min-height: 595px) and (max-height: 604px) {
+  .seconed-header {
+    display: none !important;
+  }
+  .main {
+    display: none !important;
+  }
+  .currencies {
+    grid-template-rows: 445px !important;
+  }
+  .last-containers {
+    display: grid;
+    width: 100%;
+    height: auto;
+    grid-template-columns: 90% 90% !important;
+    grid-template-rows: 50% 50% !important;
+    grid-template-areas: 'container-5'
+                        'container-7' !important;
+    margin-left: 8px;
+    z-index: 1000;
+  }
+  .container-5 {
+    display: grid;
+    grid-template-rows: 45px !important;
+  }
+  .container-6 {
+    display: none !important;
+    margin-top: 3.5px !important;
+  }
+  .container-7 {
+    display: grid;
+    grid-template-areas: 'link link link link link link uni uni uni rndr rndr rndr rndr rndr'
+                         'link link link link link link uni uni uni rndr rndr rndr rndr rndr'
+                         'link link link link link link uni uni uni rndr rndr rndr rndr rndr'
+                         'link link link link link link uni uni uni theta theta fet fet fet'
+                         'link link link link link link uni uni uni theta theta fet fet fet'
+                         'link link link link link link uni uni uni theta theta sand x x'
+                         'link link link link link link uni uni uni theta theta sand y yz'
+                         'stx stx stx stx stx grt grt grt inj inj inj fdusd fdusd doge'
+                         'stx stx stx stx stx grt grt grt inj inj inj fdusd fdusd doge'
+                         'stx stx stx stx stx rune rune ldo ldo aave aave fdusd fdusd doge'
+                         'mkr mkr mkr mkr mkr rune rune ldo ldo aave aave fdusd fdusd shib'
+                         'mkr mkr mkr mkr mkr rune rune ldo ldo ys yd fdusd fdusd shib'
+                         'mkr mkr mkr mkr mkr floki floki pepe pepe ys yo fdusd fdusd shib' !important;
+    margin-top: 11px !important;
+    height: auto;
+  }
+  .doge-7 {
+    grid-area: doge;
+  }
+  .fs-doge-7 {
+    font-size: 10px !important;
+  }
+  .fs-shib-7 {
+    font-size: 10px !important;
+  }
+  .shib-7 {
+    grid-area: shib;
+  }
+  .pepe-7 {
+    grid-area: pepe;
+  }
+  .floki-7 {
+    grid-area: floki;
+  }
+  .fs-btc {
+    font-size: 205px !important;
+  }
+  .fs-btc-1 {
+    font-size: 64px !important;
+  }
+  .fs-btc-2 {
+    font-size: 45px !important;
+  }
+  .fs-eth {
+    font-size: 110px !important;
+  }
+  .fs-eth-1 {
+    font-size: 40px !important;
+  }
+}
+/* 415 */
+@media (min-height: 605px) and (max-height: 614px) {
+  .seconed-header {
+    display: none !important;
+  }
+  .main {
+    display: none !important;
+  }
+  .currencies {
+    grid-template-rows: 455px !important;
+  }
+  .last-containers {
+    display: grid;
+    width: 100%;
+    height: auto;
+    grid-template-columns: 90% 90% !important;
+    grid-template-rows: 50% 50% !important;
+    grid-template-areas: 'container-5'
+                        'container-7' !important;
+    margin-left: 8px;
+    z-index: 1000;
+  }
+  .container-5 {
+    display: grid;
+    grid-template-rows: 45px !important;
+  }
+  .container-6 {
+    display: none !important;
+  }
+  .container-7 {
+    display: grid;
+    grid-template-areas: 'link link link link link link uni uni uni rndr rndr rndr rndr rndr'
+                         'link link link link link link uni uni uni rndr rndr rndr rndr rndr'
+                         'link link link link link link uni uni uni rndr rndr rndr rndr rndr'
+                         'link link link link link link uni uni uni theta theta fet fet fet'
+                         'link link link link link link uni uni uni theta theta fet fet fet'
+                         'link link link link link link uni uni uni theta theta sand x x'
+                         'link link link link link link uni uni uni theta theta sand y yz'
+                         'stx stx stx stx stx grt grt grt inj inj inj fdusd fdusd doge'
+                         'stx stx stx stx stx grt grt grt inj inj inj fdusd fdusd doge'
+                         'stx stx stx stx stx rune rune ldo ldo aave aave fdusd fdusd doge'
+                         'mkr mkr mkr mkr mkr rune rune ldo ldo aave aave fdusd fdusd shib'
+                         'mkr mkr mkr mkr mkr rune rune ldo ldo ys yd fdusd fdusd shib'
+                         'mkr mkr mkr mkr mkr floki floki pepe pepe ys yo fdusd fdusd shib' !important;
+    margin-top: 8px !important;
+    height: auto;
+  }
+  .doge-7 {
+    grid-area: doge;
+  }
+  .shib-7 {
+    grid-area: shib;
+  }
+  .pepe-7 {
+    grid-area: pepe;
+  }
+  .floki-7 {
+    grid-area: floki;
+  }
+  .fs-btc {
+    font-size: 205px !important;
+  }
+  .fs-btc-1 {
+    font-size: 64px !important;
+  }
+  .fs-btc-2 {
+    font-size: 45px !important;
+  }
+  .fs-eth {
+    font-size: 110px !important;
+  }
+  .fs-eth-1 {
+    font-size: 40px !important;
+  }
+}
+/* 425 */
+@media (min-height: 615px) and (max-height: 623px) {
+  .seconed-header {
+    display: none !important;
+  }
+  .main {
+    display: none !important;
+  }
+  .currencies {
+    grid-template-rows: 465px !important;
+  }
+  .last-containers {
+    display: grid;
+    width: 100%;
+    height: auto;
+    grid-template-columns: 90% 90% !important;
+    grid-template-rows: 50% 50% !important;
+    grid-template-areas: 'container-5'
+                        'container-7' !important;
+    margin-left: 8px;
+    z-index: 1000;
+  }
+  .container-5 {
+    display: grid;
+    grid-template-rows: 50px !important;
+  }
+  .container-6 {
+    display: none !important;
+    margin-top: 3.5px !important;
+  }
+  .container-7 {
+    display: grid;
+    grid-template-areas: 'link link link link link link uni uni uni rndr rndr rndr rndr rndr'
+                         'link link link link link link uni uni uni rndr rndr rndr rndr rndr'
+                         'link link link link link link uni uni uni rndr rndr rndr rndr rndr'
+                         'link link link link link link uni uni uni theta theta fet fet fet'
+                         'link link link link link link uni uni uni theta theta fet fet fet'
+                         'link link link link link link uni uni uni theta theta sand x x'
+                         'link link link link link link uni uni uni theta theta sand y yz'
+                         'stx stx stx stx stx grt grt grt inj inj inj fdusd fdusd doge'
+                         'stx stx stx stx stx grt grt grt inj inj inj fdusd fdusd doge'
+                         'stx stx stx stx stx rune rune ldo ldo aave aave fdusd fdusd doge'
+                         'mkr mkr mkr mkr mkr rune rune ldo ldo aave aave fdusd fdusd shib'
+                         'mkr mkr mkr mkr mkr rune rune ldo ldo ys yd fdusd fdusd shib'
+                         'mkr mkr mkr mkr mkr floki floki pepe pepe ys yo fdusd fdusd shib' !important;
+    margin-top: 8px !important;
+    height: auto;
+  }
+  .doge-7 {
+    grid-area: doge;
+  }
+  .shib-7 {
+    grid-area: shib;
+  }
+  .pepe-7 {
+    grid-area: pepe;
+  }
+  .floki-7 {
+    grid-area: floki;
+  }
+  .fs-btc {
+    font-size: 205px !important;
+  }
+  .fs-btc-1 {
+    font-size: 68px !important;
+  }
+  .fs-btc-2 {
+    font-size: 45px !important;
+  }
+}
+/* 435 */
+@media (min-height: 624px) and (max-height: 629px) {
+  .seconed-header {
+    display: none !important;
+  }
+  .main {
+    display: none !important;
+  }
+  .currencies {
+    grid-template-rows: 475px !important;
+  }
+  .last-containers {
+    display: grid;
+    width: 100%;
+    height: auto;
+    grid-template-columns: 90% 90% !important;
+    grid-template-rows: 50% 50% !important;
+    grid-template-areas: 'container-5'
+                        'container-7' !important;
+    margin-left: 8px;
+    z-index: 1000;
+  }
+  .container-5 {
+    display: grid;
+    grid-template-rows: 50px !important;
+  }
+  .container-6 {
+    display: none !important;
+  }
+  .container-7 {
+    display: grid;
+    grid-template-areas: 'link link link link link link uni uni uni rndr rndr rndr rndr rndr'
+                         'link link link link link link uni uni uni rndr rndr rndr rndr rndr'
+                         'link link link link link link uni uni uni rndr rndr rndr rndr rndr'
+                         'link link link link link link uni uni uni theta theta fet fet fet'
+                         'link link link link link link uni uni uni theta theta fet fet fet'
+                         'link link link link link link uni uni uni theta theta sand x x'
+                         'link link link link link link uni uni uni theta theta sand y yz'
+                         'stx stx stx stx stx grt grt grt inj inj inj fdusd fdusd doge'
+                         'stx stx stx stx stx grt grt grt inj inj inj fdusd fdusd doge'
+                         'stx stx stx stx stx rune rune ldo ldo aave aave fdusd fdusd doge'
+                         'mkr mkr mkr mkr mkr rune rune ldo ldo aave aave fdusd fdusd shib'
+                         'mkr mkr mkr mkr mkr rune rune ldo ldo ys yd fdusd fdusd shib'
+                         'mkr mkr mkr mkr mkr floki floki pepe pepe ys yo fdusd fdusd shib' !important;
+    margin-top: 10px !important;
+  }
+  .doge-7 {
+    grid-area: doge;
+  }
+  .shib-7 {
+    grid-area: shib;
+  }
+  .pepe-7 {
+    grid-area: pepe;
+  }
+  .floki-7 {
+    grid-area: floki;
+  }
+  .fs-btc {
+    font-size: 205px !important;
+  }
+  .fs-btc-1 {
+    font-size: 68px !important;
+  }
+  .fs-btc-2 {
+    font-size: 45px !important;
+  }
+}
+/* 440 */
+@media (min-height: 630px) and (max-height: 638px) {
+  .seconed-header {
+    display: none !important;
+  }
+  .main {
+    display: none !important;
+  }
+  .currencies {
+    grid-template-rows: 480px !important;
+  }
+  .last-containers {
+    display: grid;
+    width: 100%;
+    height: auto;
+    grid-template-columns: 90% 90% !important;
+    grid-template-rows: 50% 50% !important;
+    grid-template-areas: 'container-5'
+                        'container-7' !important;
+    margin-left: 8px;
+    z-index: 1000;
+  }
+  .container-5 {
+    display: grid;
+    grid-template-rows: 50px !important;
+  }
+  .container-6 {
+    display: none !important;
+    margin-top: 3.5px !important;
+  }
+  .container-7 {
+    display: grid;
+    grid-template-areas: 'link link link link link link uni uni uni rndr rndr rndr rndr rndr'
+                         'link link link link link link uni uni uni rndr rndr rndr rndr rndr'
+                         'link link link link link link uni uni uni rndr rndr rndr rndr rndr'
+                         'link link link link link link uni uni uni theta theta fet fet fet'
+                         'link link link link link link uni uni uni theta theta fet fet fet'
+                         'link link link link link link uni uni uni theta theta sand x x'
+                         'link link link link link link uni uni uni theta theta sand y yz'
+                         'stx stx stx stx stx grt grt grt inj inj inj fdusd fdusd doge'
+                         'stx stx stx stx stx grt grt grt inj inj inj fdusd fdusd doge'
+                         'stx stx stx stx stx rune rune ldo ldo aave aave fdusd fdusd doge'
+                         'mkr mkr mkr mkr mkr rune rune ldo ldo aave aave fdusd fdusd shib'
+                         'mkr mkr mkr mkr mkr rune rune ldo ldo ys yd fdusd fdusd shib'
+                         'mkr mkr mkr mkr mkr floki floki pepe pepe ys yo fdusd fdusd shib' !important;
+    margin-top: 10px !important;
+  }
+  .doge-7 {
+    grid-area: doge;
+  }
+  .shib-7 {
+    grid-area: shib;
+  }
+  .pepe-7 {
+    grid-area: pepe;
+  }
+  .floki-7 {
+    grid-area: floki;
+  }
+  .fs-btc {
+    font-size: 210px !important;
+  }
+  .fs-btc-1 {
+    font-size: 72px !important;
+  }
+}
+/* 450 */
+@media (min-height: 639px) and (max-height: 644px) {
+  .seconed-header {
+    display: none !important;
+  }
+  .main {
+    display: none !important;
+  }
+  .currencies {
+    grid-template-rows: 490px !important;
+  }
+  .last-containers {
+    display: grid;
+    width: 100%;
+    height: auto;
+    grid-template-columns: 90% 90% !important;
+    grid-template-rows: 50% 50% !important;
+    grid-template-areas: 'container-5'
+                        'container-7' !important;
+    margin-left: 8px;
+    z-index: 1000;
+  }
+  .container-5 {
+    display: grid;
+    grid-template-rows: 50px !important;
+  }
+  .container-6 {
+    display: none !important;
+    margin-top: 3.5px !important;
+  }
+  .container-7 {
+    display: grid;
+    grid-template-areas: 'link link link link link link uni uni uni rndr rndr rndr rndr rndr'
+                         'link link link link link link uni uni uni rndr rndr rndr rndr rndr'
+                         'link link link link link link uni uni uni rndr rndr rndr rndr rndr'
+                         'link link link link link link uni uni uni theta theta fet fet fet'
+                         'link link link link link link uni uni uni theta theta fet fet fet'
+                         'link link link link link link uni uni uni theta theta sand x x'
+                         'link link link link link link uni uni uni theta theta sand y yz'
+                         'stx stx stx stx stx grt grt grt inj inj inj fdusd fdusd doge'
+                         'stx stx stx stx stx grt grt grt inj inj inj fdusd fdusd doge'
+                         'stx stx stx stx stx rune rune ldo ldo aave aave fdusd fdusd doge'
+                         'mkr mkr mkr mkr mkr rune rune ldo ldo aave aave fdusd fdusd shib'
+                         'mkr mkr mkr mkr mkr rune rune ldo ldo ys yd fdusd fdusd shib'
+                         'mkr mkr mkr mkr mkr floki floki pepe pepe ys yo fdusd fdusd shib' !important;
+    margin-top: 10px !important;
+  }
+  .doge-7 {
+    grid-area: doge;
+  }
+  .shib-7 {
+    grid-area: shib;
+  }
+  .pepe-7 {
+    grid-area: pepe;
+  }
+  .floki-7 {
+    grid-area: floki;
+  }
+  .fs-btc {
+    font-size: 210px !important;
+  }
+  .fs-btc-1 {
+    font-size: 72px !important;
+  }
+}
+/* 455 */
+@media (min-height: 645px) and (max-height: 650px) {
+  .seconed-header {
+    display: none !important;
+  }
+  .main {
+    display: none !important;
+  }
+  .currencies {
+    grid-template-rows: 498px !important;
+  }
+  .last-containers {
+    display: grid;
+    width: 100%;
+    height: auto;
+    grid-template-columns: 90% 90% !important;
+    grid-template-rows: 50% 50% !important;
+    grid-template-areas: 'container-5'
+                        'container-7' !important;
+    margin-left: 8px;
+    z-index: 1000;
+  }
+  .container-5 {
+    display: grid;
+    grid-template-rows: 50px !important;
+  }
+  .container-6 {
+    display: none !important;
+    margin-top: 3.5px !important;
+  }
+  .container-7 {
+    display: grid;
+    grid-template-areas: 'link link link link link link uni uni uni rndr rndr rndr rndr rndr'
+                         'link link link link link link uni uni uni rndr rndr rndr rndr rndr'
+                         'link link link link link link uni uni uni rndr rndr rndr rndr rndr'
+                         'link link link link link link uni uni uni theta theta fet fet fet'
+                         'link link link link link link uni uni uni theta theta fet fet fet'
+                         'link link link link link link uni uni uni theta theta sand x x'
+                         'link link link link link link uni uni uni theta theta sand y yz'
+                         'stx stx stx stx stx grt grt grt inj inj inj fdusd fdusd doge'
+                         'stx stx stx stx stx grt grt grt inj inj inj fdusd fdusd doge'
+                         'stx stx stx stx stx rune rune ldo ldo aave aave fdusd fdusd doge'
+                         'mkr mkr mkr mkr mkr rune rune ldo ldo aave aave fdusd fdusd shib'
+                         'mkr mkr mkr mkr mkr rune rune ldo ldo ys yd fdusd fdusd shib'
+                         'mkr mkr mkr mkr mkr floki floki pepe pepe ys yo fdusd fdusd shib' !important;
+    margin-top: 10px !important;
+  }
+  .doge-7 {
+    grid-area: doge;
+  }
+  .shib-7 {
+    grid-area: shib;
+  }
+  .pepe-7 {
+    grid-area: pepe;
+  }
+  .floki-7 {
+    grid-area: floki;
+  }
+  .fs-btc {
+    font-size: 210px !important;
+  }
+  .fs-btc-1 {
+    font-size: 72px !important;
+  }
+}
+/* 460 */
+@media (min-height: 651px) and (max-height: 655px) {
+  .seconed-header {
+    display: none !important;
+  }
+  .main {
+    display: none !important;
+  }
+  .currencies {
+    grid-template-rows: 505px;
+  }
+  .last-containers {
+    display: grid;
+    width: 100%;
+    height: auto;
+    grid-template-columns: 90% 90% !important;
+    grid-template-rows: 50% 50% !important;
+    grid-template-areas: 'container-5'
+                        'container-7' !important;
+    margin-left: 8px;
+    z-index: 1000;
+  }
+  .container-5 {
+    display: grid;
+    grid-template-rows: 50px !important;
+  }
+  .container-6 {
+    display: none !important;
+    margin-top: 3.5px !important;
+  }
+  .container-7 {
+    display: grid;
+    grid-template-areas: 'link link link link link link uni uni uni rndr rndr rndr rndr rndr'
+                         'link link link link link link uni uni uni rndr rndr rndr rndr rndr'
+                         'link link link link link link uni uni uni rndr rndr rndr rndr rndr'
+                         'link link link link link link uni uni uni theta theta fet fet fet'
+                         'link link link link link link uni uni uni theta theta fet fet fet'
+                         'link link link link link link uni uni uni theta theta sand x x'
+                         'link link link link link link uni uni uni theta theta sand y yz'
+                         'stx stx stx stx stx grt grt grt inj inj inj fdusd fdusd doge'
+                         'stx stx stx stx stx grt grt grt inj inj inj fdusd fdusd doge'
+                         'stx stx stx stx stx rune rune ldo ldo aave aave fdusd fdusd doge'
+                         'mkr mkr mkr mkr mkr rune rune ldo ldo aave aave fdusd fdusd shib'
+                         'mkr mkr mkr mkr mkr rune rune ldo ldo ys yd fdusd fdusd shib'
+                         'mkr mkr mkr mkr mkr floki floki pepe pepe ys yo fdusd fdusd shib' !important;
+    margin-top: 10px !important;
+  }
+  .doge-7 {
+    grid-area: doge;
+  }
+  .shib-7 {
+    grid-area: shib;
+  }
+  .pepe-7 {
+    grid-area: pepe;
+  }
+  .floki-7 {
+    grid-area: floki;
+  }
+  .fs-btc {
+    font-size: 210px !important;
+  }
+  .fs-btc-1 {
+    font-size: 72px !important;
+  }
+}
+/* 465 */
+@media (min-height: 656px) and (max-height: 660px) {
+  .seconed-header {
+    display: none !important;
+  }
+  .main {
+    display: none !important;
+  }
+  .currencies {
+    grid-template-rows: 510px;
+  }
+  .container-5 {
+    display: grid;
+    grid-template-rows: 38px !important;
+  }
+  .container-6 {
+    display: grid !important;
+  }
+  .container-7 {
+    display: grid;
+    margin-top: 7px !important;
+  }
+  .fs-btc {
+    font-size: 210px !important;
+  }
+  .fs-btc-1 {
+    font-size: 72px !important;
+  }
+}
+/* 465 */
+@media (min-height: 661px) and (max-height: 665px) {
+  .seconed-header {
+    display: none !important;
+  }
+  .main {
+    display: none !important;
+  }
+  .currencies {
+    grid-template-rows: 510px;
+  }
+  .container-5 {
+    display: grid;
+    grid-template-rows: 40px !important;
+  }
+  .container-6 {
+    display: grid !important;
+  }
+  .container-7 {
+    display: grid;
+    margin-top: 7.5px !important;
+  }
+  .fs-btc {
+    font-size: 215px !important;
+  }
+  .fs-btc-1 {
+    font-size: 75px !important;
+  }
+}
+/* 470 */
+@media (min-height: 666px) and (max-height: 670px) {
+  .seconed-header {
+    display: none !important;
+  }
+  .main {
+    display: none !important;
+  }
+  .currencies {
+    grid-template-rows: 515px;
+  }
+  .container-5 {
+    display: grid;
+    grid-template-rows: 40px !important;
+  }
+  .container-6 {
+    display: grid !important;
+  }
+  .container-7 {
+    display: grid;
+    margin-top: 7.5px !important;
+  }
+  .fs-btc {
+    font-size: 220px !important;
+  }
+}
+/* 475 */
+@media (min-height: 671px) and (max-height: 675px) {
+  .seconed-header {
+    display: none !important;
+  }
+  .main {
+    display: none !important;
+  }
+  .currencies {
+    grid-template-rows: 520px;
+  }
+  .container-5 {
+    display: grid;
+    grid-template-rows: 43px !important;
+    margin-bottom: 10px !important;
+
+  }
+  .container-6 {
+    display: grid !important;
+  }
+  .container-7 {
+    display: grid;
+    margin-top: 7.8px !important;
+  }
+  .fs-btc {
+    font-size: 225px !important;
+  }
+}
+/* 485 */
+@media (min-height: 676px) and (max-height: 680px) {
+  .seconed-header {
+    display: none !important;
+  }
+  .main {
+    display: none !important;
+  }
+  .currencies {
+    grid-template-rows: 525px;
+  }
+  .container-5 {
+    display: grid;
+    grid-template-rows: 35px !important;
+  }
+  .container-6 {
+    display: grid !important;
+  }
+  .container-7 {
+    display: grid;
+    margin-top: 7px !important;
+  }
+  .fs-btc {
+    font-size: 225px !important;
+  }
+}
+/* 490 */
+@media (min-height: 681px) and (max-height: 685px) {
+  .seconed-header {
+    display: none !important;
+  }
+  .main {
+    display: none !important;
+  }
+  .currencies {
+    grid-template-rows: 530px;
+  }
+  .container-5 {
+    display: grid;
+    grid-template-rows: 38px !important;
+  }
+  .container-6 {
+    display: grid !important;
+  }
+  .container-7 {
+    display: grid;
+    margin-top: 10.5px !important;
+  }
+  .fs-btc {
+    font-size: 230px !important;
+  }
+}
+/* 495 */
+@media (min-height: 686px) and (max-height: 690px) {
+  .seconed-header {
+    display: none !important;
+  }
+  .main {
+    display: none !important;
+  }
+  .currencies {
+    grid-template-rows: 535px;
+  }
+  .container-5 {
+    display: grid;
+    grid-template-rows: 40px !important;
+  }
+  .container-6 {
+    display: grid !important;
+  }
+  .container-7 {
+    display: grid;
+    margin-top: 10px !important;
+  }
+  .fs-btc {
+    font-size: 230px !important;
+  }
+}
+/* 500 */
+@media (min-height: 691px) and (max-height: 696px) {
+  .seconed-header {
+    display: none !important;
+  }
+  .main {
+    display: none !important;
+  }
+  .currencies {
+    grid-template-rows: 540px;
+  }
+  .container-5 {
+    display: grid;
+    grid-template-rows: 41px !important;
+  }
+  .container-6 {
+    display: grid !important;
+  }
+  .container-7 {
+    display: grid;
+    margin-top: 10px !important;
+  }
+}
+/* 505 */
+@media (min-height: 697px) and (max-height: 702px) {
+  .seconed-header {
+    display: none !important;
+  }
+  .main {
+    display: none !important;
+  }
+  .currencies {
+    grid-template-rows: 545px;
+  }
+  .container-5 {
+    display: grid;
+    grid-template-rows: 43px !important;
+  }
+  .container-6 {
+    display: grid !important;
+  }
+  .container-7 {
+    display: grid;
+    margin-top: 10px !important;
+  }
+}
+/* 510 */
+@media (min-height: 703px) and (max-height: 708px) {
+  .seconed-header {
+    display: none !important;
+  }
+  .main {
+    display: none !important;
+  }
+  .currencies {
+    grid-template-rows: 550px;
+  }
+  .container-5 {
+    display: grid;
+    grid-template-rows: 44.5px !important;
+  }
+  .container-6 {
+    display: grid !important;
+  }
+  .container-7 {
+    display: grid;
+    margin-top: 10.5px !important;
+  }
+}
+/* 515 */
+@media (min-height: 709px) and (max-height: 715px) {
+  .seconed-header {
+    display: none !important;
+  }
+  .main {
+    display: none !important;
+  }
+  .currencies {
+    grid-template-rows: 555px;
+  }
+  .container-5 {
+    display: grid;
+    grid-template-rows: 47px !important;
+  }
+  .container-6 {
+    display: grid !important;
+  }
+  .container-7 {
+    display: grid;
+    margin-top: 10.5px !important;
+  }
+}
+/* 525 */
+@media (min-height: 716px) and (max-height: 721px) {
+  .seconed-header {
+    display: none !important;
+  }
+  .main {
+    display: none !important;
+  }
+  .currencies {
+    grid-template-rows: 570px;
+  }
+  .container-5 {
+    display: grid;
+    grid-template-rows: 51px !important;
+  }
+  .container-6 {
+    display: grid !important;
+  }
+  .container-7 {
+    display: grid;
+    margin-top: 10px !important;
+  }
+}
+/* 530 */
+@media (min-height: 722px) and (max-height: 728px) {
+  .seconed-header {
+    display: none !important;
+  }
+  .main {
+    display: none !important;
+  }
+  .currencies {
+    grid-template-rows: 575px;
+  }
+  .container-5 {
+    display: grid;
+    grid-template-rows: 50px !important;
+  }
+  .container-6 {
+    display: grid !important;
+  }
+  .container-7 {
+    display: grid;
+    margin-top: 10px !important;
+  }
+}
+/* 540 */
+@media (min-height: 729px) and (max-height: 736px) {
+  .seconed-header {
+    display: none !important;
+  }
+  .main {
+    display: none !important;
+  }
+  .currencies {
+    grid-template-rows: 580px;
+  }
+  .container-5 {
+    display: grid;
+    grid-template-rows: 58px !important;
+  }
+  .container-6 {
+    display: grid !important;
+  }
+  .container-7 {
+    display: grid;
+    margin-top: 10px !important;
+  }
+}
+/* 548 */
+@media (min-height: 737px) and (max-height: 745px) {
+  .seconed-header {
+    display: none !important;
+  }
+  .main {
+    display: none !important;
+  }
+  .currencies {
+    grid-template-rows: 590px;
+  }
+  .container-5 {
+    display: grid;
+    grid-template-rows: 61px !important;
+  }
+  .container-6 {
+    display: grid !important;
+  }
+  .container-7 {
+    display: grid;
+    margin-top: 9px !important;
+  }
+}
+/* 555 */
+@media (min-height: 746px) and (max-height: 751px) {
+  .seconed-header {
+    display: none !important;
+  }
+  .main {
+    display: none !important;
+  }
+  .currencies {
+    grid-template-rows: 595px;
+  }
+  .container-5 {
+    display: grid;
+    grid-template-rows: 62px !important;
+  }
+  .container-6 {
+    display: grid !important;
+  }
+  .container-7 {
+    display: grid;
+    margin-top: 8.8px !important;
+  }
+}
+/* 560 */
+@media (min-height: 752px) and (max-height: 758px) {
+  .seconed-header {
+    display: none !important;
+  }
+  .main {
+    display: none !important;
+  }
+  .currencies {
+    grid-template-rows: 600px;
+  }
+  .container-5 {
+    display: grid;
+    grid-template-rows: 65px !important;
+    margin-bottom: 10px !important;
+  }
+  .container-6 {
+    display: grid !important;
+  }
+  .container-7 {
+    display: grid;
+    margin-top: 10px !important;
+  }
+}
+/* 570 */
+@media (min-height: 759px) and (max-height: 766px){
+  .seconed-header {
+    display: none !important;
+  }
+  .main {
+    display: none !important;
+  }
+  .currencies {
+    grid-template-rows: 610px;
+  }
+  .container-5 {
+    display: grid;
+    grid-template-rows: 70px !important;
+    margin-bottom: 8px !important;
+  }
+  .container-6 {
+    display: grid !important;
+  }
+  .container-7 {
+    display: grid;
+    margin-top: 10px !important;
+  }
+}
+/* main display auto */
+/* MARGIN OK */
+/* 490 */
+@media (min-height: 767px) and (max-height: 775px) {
+  .currencies {
+    grid-template-rows: 510px;
+  }
+  .container-5 {
+    display: grid;
+    grid-template-rows: 33px !important;
+  }
+  .container-6 {
+    display: grid !important;
+  }
+  .container-7 {
+    display: grid;
+    margin-top: 9.5px !important;
+  }
+}
+/* 495 */
+@media (min-height: 776px) and (max-height: 782px) {
+  .currencies {
+    grid-template-rows: 520px;
+  }
+  .container-5 {
+    display: grid;
+    grid-template-rows: 40px !important;
+  }
+  .container-6 {
+    display: grid !important;
+  }
+  .container-7 {
+    display: grid;
+    margin-top: 10px !important;
+  }
+}
+/* 485 */
+@media (min-height: 783px) and (max-height: 788px) {
+  .currencies {
+    grid-template-rows: 530px;
+  }
+  .container-5 {
+    display: grid;
+  }
+  .container-6 {
+    display: grid !important;
+  }
+  .container-7 {
+    display: grid;
+    margin-top: 10px !important;
+  }
+}
+/* 495 */
+@media (min-height: 789px) and (max-height: 795px) {
+  .currencies {
+    grid-template-rows: 535px;
+  }
+  .container-5 {
+    display: grid;
+    grid-template-rows: 39.2px !important;
+  }
+  .container-6 {
+    display: grid !important;
+  }
+  .container-7 {
+    display: grid;
+    margin-top: 9px !important;
+  }
+}
+/* 500 */
+@media (min-height: 796px) and (max-height: 805px) {
+  .currencies {
+    grid-template-rows: 540px;
+  }
+  .container-5 {
+    display: grid;
+    grid-template-rows: 41px !important;
+  }
+  .container-6 {
+    display: grid !important;
+  }
+  .container-7 {
+    display: grid;
+    margin-top: 10px !important;
+  }
+}
+/* 510 */
+@media (min-height: 806px) and (max-height: 812px) {
+  .currencies {
+    grid-template-rows: 550px;
+  }
+  .container-5 {
+    display: grid;
+    grid-template-rows: 45px !important;
+  }
+  .container-6 {
+    display: grid !important;
+  }
+  .container-7 {
+    display: grid;
+    margin-top: 10px !important;
+  }
+}
+/* 520 */
+@media (min-height: 813px) and (max-height: 820px) {
+  .currencies {
+    grid-template-rows: 555px;
+  }
+  .container-5 {
+    display: grid;
+    grid-template-rows: 50px !important;
+  }
+  .container-6 {
+    display: grid !important;
+  }
+  .container-7 {
+    display: grid;
+    margin-top: 9.5px !important;
+  }
+}
+/* 525 */
+@media (min-height: 821px) and (max-height: 827px) {
+  .currencies {
+    grid-template-rows: 565px;
+  }
+  .container-5 {
+    display: grid;
+    grid-template-rows: 52px !important;
+  }
+  .container-6 {
+    display: grid !important;
+  }
+  .container-7 {
+    display: grid;
+    margin-top: 10px !important;
+  }
+}
+/* 530 */
+@media (min-height: 828px) and (max-height: 835px) {
+  .currencies {
+    grid-template-rows: 570px;
+  }
+  .container-5 {
+    display: grid;
+    grid-template-rows: 53px !important;
+    margin-bottom: 7px !important;
+  }
+  .container-6 {
+    display: grid !important;
+  }
+  .container-7 {
+    display: grid;
+    margin-top: 10px !important;
+  }
+}
+/* 540 */
+@media (min-height: 836px) and (max-height: 843px) {
+  .currencies {
+    grid-template-rows: 580px;
+  }
+  .container-5 {
+    display: grid;
+    grid-template-rows: 50px !important;
+  }
+  .container-6 {
+    display: grid !important;
+  }
+  .container-7 {
+    display: grid;
+    margin-top: 10px !important;
+  }
+}
+/* 550 */
+@media (min-height: 844px) and (max-height: 850px) {
+  .currencies {
+    grid-template-rows: 590px;
+  }
+  .container-5 {
+    display: grid;
+    grid-template-rows: 50px !important;
+  }
+  .container-6 {
+    display: grid !important;
+
+  }
+  .container-7 {
+    display: grid;
+    margin-top: 10px !important;
+  }
+}
+/* 555 */
+@media (min-height: 851px) and (max-height: 857px) {
+  .currencies {
+    grid-template-rows: 595px;
+  }
+  .container-5 {
+    display: grid;
+    grid-template-rows: 50px !important;
+  }
+  .container-6 {
+    display: grid !important;
+  }
+  .container-7 {
+    display: grid;
+    margin-top: 10px !important;
+  }
+}
+/* 560 */
+@media (min-height: 858px) and (max-height: 865px) {
+  .currencies {
+    grid-template-rows: 605px;
+  }
+  .container-5 {
+    display: grid;
+    grid-template-rows: 55px !important;
+  }
+  .container-6 {
+    display: grid !important;
+  }
+  .container-7 {
+    display: grid;
+    margin-top: 10px !important;
+  }
+}
+/* 570 */
+@media (min-height: 866px) and (max-height: 874px) {
+  .currencies {
+    grid-template-rows: 610px;
+  }
+  .container-5 {
+    display: grid;
+    grid-template-rows: 55px !important;
+  }
+  .container-6 {
+    display: grid !important;
+  }
+  .container-7 {
+    display: grid;
+    margin-top: 10px !important;
+  }
+}
+/* 580 */
+@media (min-height: 875px) and (max-height: 882px) {
+  .currencies {
+    grid-template-rows: 620px;
+  }
+  .container-5 {
+    display: grid;
+    grid-template-rows: 55px !important;
+  }
+  .container-6 {
+    display: grid !important;
+  }
+  .container-7 {
+    display: grid;
+    margin-top: 10px !important;
+  }
+}
+/* 585 */
+@media (min-height: 883px) and (max-height: 890px) {
+  .currencies {
+    grid-template-rows: 625px;
+  }
+  .container-5 {
+    display: grid;
+    grid-template-rows: 55px !important;
+  }
+  .container-6 {
+    display: grid !important;
+  }
+  .container-7 {
+    display: grid;
+    margin-top: 10px !important;
+  }
+}
+/* 595 */
+@media (min-height: 891px) and (max-height: 896px) {
+  .currencies {
+    grid-template-rows: 635px;
+  }
+  .container-5 {
+    display: grid;
+    grid-template-rows: 55px !important;
+  }
+  .container-6 {
+    display: grid !important;
+  }
+  .container-7 {
+    display: grid;
+    margin-top: 10px !important;
+  }
+}
+/* 600 */
+@media (min-height: 897px) and (max-height: 905px) {
+  .currencies {
+    grid-template-rows: 640px;
+  }
+  .container-5 {
+    display: grid;
+    grid-template-rows: 55px !important;
+  }
+  .container-6 {
+    display: grid !important;
+  }
+  .container-7 {
+    display: grid;
+    margin-top: 10px !important;
+  }
+}
+/* 605 */
+@media (min-height: 906px) and (max-height: 912px) {
+  .currencies {
+    grid-template-rows: 650px;
+  }
+  .container-5 {
+    display: grid;
+    grid-template-rows: 55px !important;
+  }
+  .container-6 {
+    display: grid !important;
+  }
+  .container-7 {
+    display: grid;
+    margin-top: 10px !important;
+  }
+}
+/* 615 */
+@media (min-height: 913px) and (max-height: 920px) {
+  .currencies {
+    grid-template-rows: 655px;
+  }
+  .container-5 {
+    display: grid;
+    grid-template-rows: 55px !important;
+  }
+  .container-6 {
+    display: grid !important;
+  }
+  .container-7 {
+    display: grid;
+    margin-top: 10px !important;
+  }
+}
+/* 625 */
+@media (min-height: 921px) and (max-height: 927px) {
+  .currencies {
+    grid-template-rows: 665px;
+  }
+  .container-5 {
+    display: grid;
+    grid-template-rows: 50px !important;
+  }
+  .container-6 {
+    display: grid !important;
+  }
+  .container-7 {
+    display: grid;
+    margin-top: 11px !important;
+  }
+}
+/* 630 */
+@media (min-height: 928px) and (max-height: 935px) {
+  .currencies {
+    grid-template-rows: 675px;
+  }
+  .container-5 {
+    display: grid;
+    grid-template-rows: 50px !important;
+  }
+  .container-6 {
+    display: grid !important;
+  }
+  .container-7 {
+    display: grid;
+    margin-top: 10.5px !important;
+  }
+}
+/* 640 */
+@media (min-height: 936px) and (max-height: 942px) {
+  .currencies {
+    grid-template-rows: 680px;
+  }
+  .container-5 {
+    display: grid;
+    grid-template-rows: 50px !important;
+  }
+  .container-6 {
+    display: grid !important;
+  }
+  .container-7 {
+    display: grid;
+    margin-top: 11px !important;
+  }
+}
+/* 645 */
+@media (min-height: 943px) and (max-height: 950px) {
+  .currencies {
+    grid-template-rows: 690px;
+  }
+  .container-5 {
+    display: grid;
+    grid-template-rows: 50px !important;
+  }
+  .container-6 {
+    display: grid !important;
+  }
+  .container-7 {
+    display: grid;
+    margin-top: 10.5px !important;
+  }
+}
+/* 655 */
+@media (min-height: 951px) and (max-height: 960px) {
+  .currencies {
+    grid-template-rows: 695px;
+  }
+  .container-5 {
+    display: grid;
+    grid-template-columns: 50px !important;
+  }
+  .container-6 {
+    display: grid !important;
+  }
+  .container-7 {
+    display: grid;
+    margin-top: 10.5px !important;
+  }
+}
+/* 655 */
+@media (min-height: 961px) and (max-height: 970px) {
+  .currencies {
+    grid-template-rows: 705px !important;
+  }
+  .container-5 {
+    display: grid;
+    grid-template-rows: 50px !important;
+  }
+  .container-6 {
+    display: grid !important;
+  }
+  .container-7 {
+    display: grid;
+    margin-top: 10.5px !important;
+  }
+}
+/* 665 */
+@media (min-height: 971px) and (max-height: 980px) {
+  .currencies {
+    grid-template-rows: 715px !important;
+  }
+  .container-5 {
+    display: grid;
+    grid-template-rows: 50px !important;
+  }
+  .container-6 {
+    display: grid !important;
+  }
+  .container-7 {
+    display: grid;
+    margin-top: 10.5px !important;
+  }
+}
+/* 665 */
+@media (min-height: 981px) and (max-height: 990px) {
+  .currencies {
+    grid-template-rows: 725px !important;
+  }
+  .container-5 {
+    display: grid;
+    grid-template-rows: 50px !important;
+  }
+  .container-6 {
+    display: grid !important;
+  }
+  .container-7 {
+    display: grid;
+    margin-top: 10.5px !important;
+  }
+}
+/* 675 */
+@media (min-height: 991px) and (max-height: 1000px) {
+  .currencies {
+    grid-template-rows: 735px !important;
+  }
+  .container-5 {
+    display: grid;
+    grid-template-rows: 50px !important;
+  }
+  .container-6 {
+    display: grid !important;
+  }
+  .container-7 {
+    display: grid;
+    margin-top: 10.5px !important;
+  }
+}
